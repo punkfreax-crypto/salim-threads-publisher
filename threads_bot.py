@@ -162,6 +162,9 @@ def validate(item):
 
 
 def cmd_run():
+    if config().get("server_publish") and not os.environ.get("GITHUB_ACTIONS"):
+        print("발행은 GitHub 서버가 전담 (맥북 발행 꺼짐). 맥북에서는 `python3 sync.py both`로 동기화")
+        return
     q = load_json(QUEUE, [])
     log = load_json(LOG, [])
     day, ph = phase_info()
