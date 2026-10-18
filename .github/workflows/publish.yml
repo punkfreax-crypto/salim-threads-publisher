@@ -1,0 +1,43 @@
+name: publish
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+concurrency:
+  group: publish
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: run
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_TOKEN_ISSUED: ${{ secrets.THREADS_TOKEN_ISSUED }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          H=$(TZ=Asia/Seoul date +%H)
+          if [ "$H" -lt 7 ]; then echo "새벽 시간, 건너뜀"; exit 0; fi
+          printf "THREADS_ACCESS_TOKEN=%s\nTHREADS_USER_ID=%s\nTHREADS_TOKEN_ISSUED=%s\n" "$THREADS_ACCESS_TOKEN" "$THREADS_USER_ID" "$THREADS_TOKEN_ISSUED" > .secrets.env
+          python3 threads_bot.py run | tee -a server_run.log
+          NEW=$(grep '^THREADS_ACCESS_TOKEN=' .secrets.env | cut -d= -f2-)
+          if [ "$NEW" != "$THREADS_ACCESS_TOKEN" ]; then
+            gh secret set THREADS_ACCESS_TOKEN --body "$NEW"
+            gh secret set THREADS_TOKEN_ISSUED --body "$(grep '^THREADS_TOKEN_ISSUED=' .secrets.env | cut -d= -f2-)"
+            echo "토큰 갱신 반영"
+          fi
+          rm -f .secrets.env
+          tail -n 300 server_run.log > s.tmp && mv s.tmp server_run.log
+      - name: commit
+        run: |
+          git config user.name "salim-bot"; git config user.email "bot@users.noreply.github.com"
+          git add queue.json posted_log.json server_run.log
+          git diff --cached --quiet && exit 0
+          git commit -m "publish $(TZ=Asia/Seoul date '+%F %H:%M')"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && exit 0; sleep 5; done
+          exit 1
