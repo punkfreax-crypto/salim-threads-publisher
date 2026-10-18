@@ -1,0 +1,59 @@
+{
+  "account": "salim.ggultem.note",
+  "persona": "살림꿀템노트",
+  "account_started": "2026-10-13",
+  "post_slots_kst": [
+    "07:40",
+    "09:10",
+    "12:20",
+    "15:30",
+    "18:40",
+    "20:30",
+    "21:50",
+    "23:10"
+  ],
+  "phases": [
+    {
+      "name": "워밍업 (본문 링크 없음, 성과 글 링크 답글 1건)",
+      "until_day": 3,
+      "max_posts": 3,
+      "max_ads": 0
+    },
+    {
+      "name": "신뢰 쌓기",
+      "until_day": 10,
+      "max_posts": 4,
+      "max_ads": 1
+    },
+    {
+      "name": "확장 1",
+      "until_day": 21,
+      "max_posts": 6,
+      "max_ads": 2
+    },
+    {
+      "name": "확장 2",
+      "until_day": 45,
+      "max_posts": 8,
+      "max_ads": 3
+    },
+    {
+      "name": "운영",
+      "until_day": 9999,
+      "max_posts": 10,
+      "max_ads": 4
+    }
+  ],
+  "coupang": {
+    "mode": "browser",
+    "api_enabled_after_final_approval": true,
+    "channel_ids": {
+      "attach": "thAttach01",
+      "ad_post": "thAdPost01",
+      "reply": "thReply001"
+    }
+  },
+  "goal_monthly_krw": 500000,
+  "attach_from_day": 2,
+  "attach_min_views_early": 300
+}
