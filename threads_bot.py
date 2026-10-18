@@ -364,6 +364,23 @@ def _cmd_reply(comment_id, text):
     if comment_id in load_json(REPLIED, {}):
         print("이미 답한 답글, 건너뜀", comment_id)
         return
+    # 오래된 목록으로 답하지 않기 (맥 잠자기 후 깨어난 실행 방지)
+    if os.path.exists(PENDING) and time.time() - os.path.getmtime(PENDING) > 1800:
+        print("답글 목록이 30분 넘게 지남. replies 명령으로 새로 받은 뒤 다시 시도")
+        return
+    # 스레드 서버에서 직접 확인: 이 답글에 내 답이 이미 있으면 건너뜀
+    s0 = secrets()
+    try:
+        r = http("GET", f"{API}/{comment_id}/replies", {"fields": "id,username", "access_token": s0["THREADS_ACCESS_TOKEN"]})
+        if any(i.get("username") == MY_NAME for i in r.get("data", [])):
+            rep = load_json(REPLIED, {})
+            rep[comment_id] = {"reply_id": None, "text": "(서버에 이미 답 있음)", "at": now().isoformat()}
+            save_json(REPLIED, rep)
+            print("스레드에 이미 내 답이 있음, 건너뜀", comment_id)
+            return
+    except Exception as e:
+        print("서버 확인 실패, 안전을 위해 건너뜀", str(e)[:100])
+        return
     if "coupang.com" in text and DISCLOSURE not in text:
         text = text.strip() + "\n\n" + DISCLOSURE
     if len(text) > 500:
