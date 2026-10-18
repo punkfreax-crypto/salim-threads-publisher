@@ -55,5 +55,6 @@
   },
   "goal_monthly_krw": 500000,
   "attach_from_day": 2,
-  "attach_min_views_early": 300
+  "attach_min_views_early": 300,
+  "server_publish": true
 }
