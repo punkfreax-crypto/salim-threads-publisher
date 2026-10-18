@@ -22,7 +22,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           H=$(TZ=Asia/Seoul date +%H)
-          if [ "$H" -lt 7 ]; then echo "새벽 시간, 건너뜀"; exit 0; fi
+          touch server_run.log
+          if [ "$H" -lt 7 ]; then echo "$(TZ=Asia/Seoul date '+%F %T') 새벽 시간, 건너뜀" >> server_run.log; exit 0; fi
           printf "THREADS_ACCESS_TOKEN=%s\nTHREADS_USER_ID=%s\nTHREADS_TOKEN_ISSUED=%s\n" "$THREADS_ACCESS_TOKEN" "$THREADS_USER_ID" "$THREADS_TOKEN_ISSUED" > .secrets.env
           python3 threads_bot.py run | tee -a server_run.log
           NEW=$(grep '^THREADS_ACCESS_TOKEN=' .secrets.env | cut -d= -f2-)
@@ -36,6 +37,7 @@ jobs:
       - name: commit
         run: |
           git config user.name "salim-bot"; git config user.email "bot@users.noreply.github.com"
+          touch server_run.log
           git add queue.json posted_log.json server_run.log
           git diff --cached --quiet && exit 0
           git commit -m "publish $(TZ=Asia/Seoul date '+%F %H:%M')"
