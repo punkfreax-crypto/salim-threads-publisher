@@ -16,11 +16,14 @@
 import json, os, sys, time, urllib.parse, urllib.request, datetime as dt
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-SECRETS = os.path.join(BASE, ".secrets.env")
-QUEUE = os.path.join(BASE, "queue.json")
-LOG = os.path.join(BASE, "posted_log.json")
-STATS = os.path.join(BASE, "stats.json")
-CONFIG = os.path.join(BASE, "config.json")
+# 계정 선택: ACCOUNT=salim(기본, 루트 폴더) | kitchen | season (accounts/<이름>/ 폴더)
+ACC = os.environ.get("ACCOUNT", "salim")
+DATA = BASE if ACC == "salim" else os.path.join(BASE, "accounts", ACC)
+SECRETS = os.path.join(DATA, ".secrets.env")
+QUEUE = os.path.join(DATA, "queue.json")
+LOG = os.path.join(DATA, "posted_log.json")
+STATS = os.path.join(DATA, "stats.json")
+CONFIG = os.path.join(DATA, "config.json")
 API = "https://graph.threads.net/v1.0"
 KST = dt.timezone(dt.timedelta(hours=9))
 
@@ -265,9 +268,9 @@ def cmd_stats():
         acc = {}
         for d in r.get("data", []):
             acc[d["name"]] = d["total_value"]["value"] if "total_value" in d else d["values"][-1]["value"]
-        hist = load_json(os.path.join(BASE, "account_stats.json"), {})
+        hist = load_json(os.path.join(DATA, "account_stats.json"), {})
         hist[now().date().isoformat()] = {**acc, "checked_at": now().isoformat()}
-        save_json(os.path.join(BASE, "account_stats.json"), hist)
+        save_json(os.path.join(DATA, "account_stats.json"), hist)
         print("계정:", acc)
     except Exception as e:
         print("계정 지표 실패", str(e)[:150])
@@ -293,11 +296,15 @@ def cmd_status():
 
 
 # ---------- 답글 관리 / 성과 기반 링크 부착 ----------
-PENDING = os.path.join(BASE, "pending_replies.json")
-REPLIED = os.path.join(BASE, "replied.json")
-CANDS = os.path.join(BASE, "link_candidates.json")
-ATTACHED = os.path.join(BASE, "attached_links.json")
-MY_NAME = "salim.ggultem.note"
+PENDING = os.path.join(DATA, "pending_replies.json")
+REPLIED = os.path.join(DATA, "replied.json")
+CANDS = os.path.join(DATA, "link_candidates.json")
+ATTACHED = os.path.join(DATA, "attached_links.json")
+MY_NAME = None  # config의 account로 설정
+
+
+def my_name():
+    return config().get("account", "salim.ggultem.note")
 
 
 def cmd_replies():
@@ -318,9 +325,9 @@ def cmd_replies():
             print("조회 실패", x["id"], str(e)[:120])
             continue
         items = r.get("data", [])
-        mine_parent = {i.get("replied_to", {}).get("id") for i in items if i.get("username") == MY_NAME}
+        mine_parent = {i.get("replied_to", {}).get("id") for i in items if i.get("username") == my_name()}
         for i in items:
-            if i.get("username") == MY_NAME or i["id"] in replied or i["id"] in mine_parent:
+            if i.get("username") == my_name() or i["id"] in replied or i["id"] in mine_parent:
                 continue
             pending.append({"comment_id": i["id"], "username": i.get("username"), "text": i.get("text", ""),
                             "timestamp": i.get("timestamp"), "post_local_id": x["id"], "post_id": x["post_id"],
@@ -337,7 +344,7 @@ import fcntl, contextlib
 @contextlib.contextmanager
 def file_lock(name, wait=60):
     """프로세스 간 잠금. 다른 실행이 잡고 있으면 최대 wait초 기다린 뒤 실패"""
-    f = open(os.path.join(BASE, name), "w")
+    f = open(os.path.join(DATA, name), "w")
     t0 = time.time()
     while True:
         try:
@@ -372,7 +379,7 @@ def _cmd_reply(comment_id, text):
     s0 = secrets()
     try:
         r = http("GET", f"{API}/{comment_id}/replies", {"fields": "id,username", "access_token": s0["THREADS_ACCESS_TOKEN"]})
-        if any(i.get("username") == MY_NAME for i in r.get("data", [])):
+        if any(i.get("username") == my_name() for i in r.get("data", [])):
             rep = load_json(REPLIED, {})
             rep[comment_id] = {"reply_id": None, "text": "(서버에 이미 답 있음)", "at": now().isoformat()}
             save_json(REPLIED, rep)
