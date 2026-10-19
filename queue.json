@@ -163,11 +163,14 @@
     "id": "20261019-02",
     "type": "info",
     "scheduled_at": "2026-10-19T12:24:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "format": "vote",
     "product": null,
     "text": "샤워하고 나서 욕실 문 어떻게 해?\n\n1) 활짝 열어둠\n2) 꼭 닫아둠\n3) 환풍기 켜고 닫음\n4) 아무 생각 없었음\n\n습기 빼는 데는 은근 갈리는 문제라 궁금함",
-    "reply_text": null
+    "reply_text": null,
+    "posted_at": "2026-10-19T14:12:53.179051+09:00",
+    "post_id": "17887154841492570",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DeqerduFmVt"
   },
   {
     "id": "20261019-03",
