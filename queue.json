@@ -191,11 +191,14 @@
     "id": "20261019-04",
     "type": "info",
     "scheduled_at": "2026-10-19T21:56:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "format": "question",
     "product": null,
     "text": "다이소에서 겨울에 사길 잘한 거 하나씩만 추천해줘\n\n많이 언급되는 거 모아서 정리해볼게\n\n살림·자취 꿀팁 매일 올리는 중이라 궁금하면 팔로우해둬",
-    "reply_text": null
+    "reply_text": null,
+    "posted_at": "2026-10-19T22:03:51.541787+09:00",
+    "post_id": "18128290243879009",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DerUlZulGH_"
   },
   {
     "id": "20261020-01",
