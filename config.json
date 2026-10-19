@@ -3,45 +3,51 @@
   "persona": "살림꿀템노트",
   "account_started": "2026-10-13",
   "post_slots_kst": [
-    "07:40",
-    "09:10",
-    "12:20",
-    "15:30",
-    "18:40",
-    "20:30",
-    "21:50",
-    "23:10"
+    "07:35",
+    "08:45",
+    "09:55",
+    "11:05",
+    "12:15",
+    "13:25",
+    "14:35",
+    "15:45",
+    "16:55",
+    "18:05",
+    "19:15",
+    "20:25",
+    "21:35",
+    "22:45"
   ],
   "phases": [
     {
-      "name": "워밍업 (본문 링크 없음, 성과 글 링크 답글 1건)",
+      "name": "워밍업",
       "until_day": 3,
       "max_posts": 3,
       "max_ads": 0
     },
     {
       "name": "신뢰 쌓기",
-      "until_day": 10,
+      "until_day": 7,
       "max_posts": 4,
       "max_ads": 1
     },
     {
       "name": "확장 1",
-      "until_day": 21,
-      "max_posts": 6,
-      "max_ads": 2
+      "until_day": 14,
+      "max_posts": 7,
+      "max_ads": 3
     },
     {
       "name": "확장 2",
-      "until_day": 45,
-      "max_posts": 8,
-      "max_ads": 3
+      "until_day": 21,
+      "max_posts": 10,
+      "max_ads": 5
     },
     {
       "name": "운영",
       "until_day": 9999,
-      "max_posts": 10,
-      "max_ads": 4
+      "max_posts": 14,
+      "max_ads": 7
     }
   ],
   "coupang": {
@@ -56,5 +62,7 @@
   "goal_monthly_krw": 500000,
   "attach_from_day": 2,
   "attach_min_views_early": 300,
-  "server_publish": true
+  "server_publish": true,
+  "goal_daily_krw": 20000,
+  "topic": "살림·자취·청소·세탁·정리"
 }
