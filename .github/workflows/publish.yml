@@ -11,34 +11,47 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - name: run
         env:
-          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
-          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
-          THREADS_TOKEN_ISSUED: ${{ secrets.THREADS_TOKEN_ISSUED }}
+          TOK_SALIM: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          UID_SALIM: ${{ secrets.THREADS_USER_ID }}
+          ISS_SALIM: ${{ secrets.THREADS_TOKEN_ISSUED }}
+          TOK_KITCHEN: ${{ secrets.THREADS_ACCESS_TOKEN_KITCHEN }}
+          UID_KITCHEN: ${{ secrets.THREADS_USER_ID_KITCHEN }}
+          ISS_KITCHEN: ${{ secrets.THREADS_TOKEN_ISSUED_KITCHEN }}
+          TOK_SEASON: ${{ secrets.THREADS_ACCESS_TOKEN_SEASON }}
+          UID_SEASON: ${{ secrets.THREADS_USER_ID_SEASON }}
+          ISS_SEASON: ${{ secrets.THREADS_TOKEN_ISSUED_SEASON }}
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          H=$(TZ=Asia/Seoul date +%H)
           touch server_run.log
+          H=$(TZ=Asia/Seoul date +%H)
           if [ "$H" -lt 7 ]; then echo "$(TZ=Asia/Seoul date '+%F %T') 새벽 시간, 건너뜀" >> server_run.log; exit 0; fi
-          printf "THREADS_ACCESS_TOKEN=%s\nTHREADS_USER_ID=%s\nTHREADS_TOKEN_ISSUED=%s\n" "$THREADS_ACCESS_TOKEN" "$THREADS_USER_ID" "$THREADS_TOKEN_ISSUED" > .secrets.env
-          python3 threads_bot.py run | tee -a server_run.log
-          NEW=$(grep '^THREADS_ACCESS_TOKEN=' .secrets.env | cut -d= -f2-)
-          if [ "$NEW" != "$THREADS_ACCESS_TOKEN" ]; then
-            gh secret set THREADS_ACCESS_TOKEN --body "$NEW"
-            gh secret set THREADS_TOKEN_ISSUED --body "$(grep '^THREADS_TOKEN_ISSUED=' .secrets.env | cut -d= -f2-)"
-            echo "토큰 갱신 반영"
-          fi
-          rm -f .secrets.env
-          tail -n 300 server_run.log > s.tmp && mv s.tmp server_run.log
+          for A in salim kitchen season; do
+            U=$(echo $A | tr a-z A-Z)
+            TOK=$(eval echo \$TOK_$U); UID_=$(eval echo \$UID_$U); ISS=$(eval echo \$ISS_$U)
+            if [ -z "$TOK" ]; then echo "[$A] 토큰 없음, 건너뜀" >> server_run.log; continue; fi
+            if [ "$A" = salim ]; then D=.; SUF=""; else D=accounts/$A; SUF="_$U"; fi
+            printf "THREADS_ACCESS_TOKEN=%s\nTHREADS_USER_ID=%s\nTHREADS_TOKEN_ISSUED=%s\n" "$TOK" "$UID_" "$ISS" > $D/.secrets.env
+            echo "=== [$A] $(TZ=Asia/Seoul date '+%F %T')" >> server_run.log
+            ACCOUNT=$A python3 threads_bot.py run >> server_run.log 2>&1 || echo "[$A] 실행 오류" >> server_run.log
+            NEW=$(grep '^THREADS_ACCESS_TOKEN=' $D/.secrets.env | cut -d= -f2-)
+            if [ "$NEW" != "$TOK" ]; then
+              gh secret set THREADS_ACCESS_TOKEN$SUF --body "$NEW"
+              gh secret set THREADS_TOKEN_ISSUED$SUF --body "$(grep '^THREADS_TOKEN_ISSUED=' $D/.secrets.env | cut -d= -f2-)"
+              echo "[$A] 토큰 갱신 반영" >> server_run.log
+            fi
+            rm -f $D/.secrets.env
+          done
+          tail -n 400 server_run.log > s.tmp && mv s.tmp server_run.log
       - name: commit
         run: |
           git config user.name "salim-bot"; git config user.email "bot@users.noreply.github.com"
           touch server_run.log
-          git add queue.json posted_log.json server_run.log
+          git add queue.json posted_log.json server_run.log accounts/*/queue.json accounts/*/posted_log.json
           git diff --cached --quiet && exit 0
           git commit -m "publish $(TZ=Asia/Seoul date '+%F %H:%M')"
           for i in 1 2 3; do git pull --rebase -X theirs && git push && exit 0; sleep 5; done
