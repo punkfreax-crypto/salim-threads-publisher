@@ -1,0 +1,68 @@
+{
+  "post_slots_kst": [
+    "07:35",
+    "08:45",
+    "09:55",
+    "11:05",
+    "12:15",
+    "13:25",
+    "14:35",
+    "15:45",
+    "16:55",
+    "18:05",
+    "19:15",
+    "20:25",
+    "21:35",
+    "22:45"
+  ],
+  "phases": [
+    {
+      "name": "워밍업",
+      "until_day": 3,
+      "max_posts": 3,
+      "max_ads": 0
+    },
+    {
+      "name": "신뢰 쌓기",
+      "until_day": 7,
+      "max_posts": 4,
+      "max_ads": 1
+    },
+    {
+      "name": "확장 1",
+      "until_day": 14,
+      "max_posts": 7,
+      "max_ads": 3
+    },
+    {
+      "name": "확장 2",
+      "until_day": 21,
+      "max_posts": 10,
+      "max_ads": 5
+    },
+    {
+      "name": "운영",
+      "until_day": 9999,
+      "max_posts": 14,
+      "max_ads": 7
+    }
+  ],
+  "goal_monthly_krw": 500000,
+  "attach_from_day": 2,
+  "attach_min_views_early": 300,
+  "server_publish": true,
+  "goal_daily_krw": 20000,
+  "account": "kitchen.ggultem.note",
+  "persona": "주방꿀템노트",
+  "topic": "주방·요리·설거지·식재료 보관·조리도구·자취 주방",
+  "account_started": "2026-10-19",
+  "coupang": {
+    "mode": "browser",
+    "channel_ids": {
+      "attach": "thKitAtt1",
+      "ad_post": "thKitAd01",
+      "reply": "thKitRep1"
+    },
+    "channel_registered": false
+  }
+}
