@@ -216,10 +216,13 @@
     "id": "20261020-02",
     "type": "info",
     "scheduled_at": "2026-10-20T12:26:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "format": "vote",
     "product": null,
-    "text": "자취러들 난방 언제부터 틀어?\n\n1. 벌써 틀었음\n2. 전기장판으로 버티는 중\n3. 11월까진 무조건 참음\n4. 관리비 보고 결정\n\n번호로만 답해줘\n다들 어디까지 버티는지 궁금함"
+    "text": "자취러들 난방 언제부터 틀어?\n\n1. 벌써 틀었음\n2. 전기장판으로 버티는 중\n3. 11월까진 무조건 참음\n4. 관리비 보고 결정\n\n번호로만 답해줘\n다들 어디까지 버티는지 궁금함",
+    "posted_at": "2026-10-20T12:35:21.724590+09:00",
+    "post_id": "18129420679699357",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/Des4UjBFKy6"
   },
   {
     "id": "20261020-03",
