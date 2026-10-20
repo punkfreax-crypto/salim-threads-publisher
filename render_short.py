@@ -10,7 +10,7 @@ def dur(p):
     return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=nw=1:nk=1", p]).decode().strip())
 
 async def tts(text, voice, out):
-    await edge_tts.Communicate(text, voice, rate="+12%").save(out)
+    await edge_tts.Communicate(text, voice, rate="+20%").save(out)
 
 def render(job):
     wd = f"/tmp/{job['id']}"; os.makedirs(wd, exist_ok=True)
@@ -19,7 +19,7 @@ def render(job):
         ip, ap, vp = f"{wd}/{i}.png", f"{wd}/{i}.mp3", f"{wd}/{i}.mp4"
         urllib.request.urlretrieve(img, ip)
         asyncio.run(tts(nar or " ", VOICE.get(job.get("account"), "ko-KR-SunHiNeural"), ap))
-        d = dur(ap) + 0.35
+        d = dur(ap) + 0.08
         subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", ip, "-i", ap,
             "-filter_complex", f"[0:v]scale=1080:1920,zoompan=z='min(zoom+0.0006,1.06)':d={int(d*30)}:s=1080x1920:fps=30,format=yuv420p[v];[1:a]apad[a]",
             "-map", "[v]", "-map", "[a]", "-t", f"{d:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
