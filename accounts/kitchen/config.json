@@ -17,34 +17,28 @@
   ],
   "phases": [
     {
-      "name": "워밍업",
-      "until_day": 3,
+      "name": "워밍업(2주, 링크 없음)",
+      "until_day": 14,
       "max_posts": 3,
       "max_ads": 0
     },
     {
       "name": "신뢰 쌓기",
-      "until_day": 7,
-      "max_posts": 4,
+      "until_day": 21,
+      "max_posts": 5,
       "max_ads": 1
     },
     {
-      "name": "확장 1",
-      "until_day": 14,
-      "max_posts": 7,
-      "max_ads": 3
-    },
-    {
-      "name": "확장 2",
-      "until_day": 21,
-      "max_posts": 10,
-      "max_ads": 5
+      "name": "확장",
+      "until_day": 35,
+      "max_posts": 8,
+      "max_ads": 2
     },
     {
       "name": "운영",
       "until_day": 9999,
-      "max_posts": 14,
-      "max_ads": 7
+      "max_posts": 12,
+      "max_ads": 4
     }
   ],
   "goal_monthly_krw": 500000,
