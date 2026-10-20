@@ -1,7 +1,7 @@
 name: publish
 on:
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "7,37 * * * *"
   workflow_dispatch:
 concurrency:
   group: publish
@@ -12,7 +12,7 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "salim-bot"; git config user.email "bot@users.noreply.github.com"
           START=$(date +%s)
-          while [ $(( $(date +%s) - START )) -lt 19500 ]; do
+          for _once in 1; do
             git fetch -q origin main && git reset -q --hard origin/main
             touch server_run.log
             H=$(TZ=Asia/Seoul date +%H)
@@ -67,10 +67,4 @@ jobs:
                 sleep 3
               done
             fi
-            sleep 600
           done
-      - name: chain next run
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
-        run: gh workflow run publish.yml --ref main -R ${{ github.repository }} || true
