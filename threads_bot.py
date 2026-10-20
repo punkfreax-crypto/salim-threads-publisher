@@ -104,9 +104,11 @@ def posted_today(log, kind=None):
 
 
 # ---------- 발행 ----------
-def create_container(token, uid, text, image_url=None, reply_to=None):
+def create_container(token, uid, text, image_url=None, reply_to=None, video_url=None):
     p = {"access_token": token, "text": text}
-    if image_url:
+    if video_url:
+        p.update(media_type="VIDEO", video_url=video_url)
+    elif image_url:
         p.update(media_type="IMAGE", image_url=image_url)
     else:
         p.update(media_type="TEXT")
@@ -117,7 +119,7 @@ def create_container(token, uid, text, image_url=None, reply_to=None):
 
 def publish(token, uid, creation_id):
     # 이미지 컨테이너는 처리 시간이 필요할 수 있음
-    for _ in range(10):
+    for _ in range(40):
         st = http("GET", f"{API}/{creation_id}", {"fields": "status,error_message", "access_token": token})
         if st.get("status") in ("FINISHED", None):
             break
@@ -140,7 +142,7 @@ def post_item(item):
     text = item["text"].strip()
     if len(text) > 500:
         raise RuntimeError("본문 500자 초과")
-    cid = create_container(token, uid, text, item.get("image_url"))
+    cid = create_container(token, uid, text, item.get("image_url"), video_url=item.get("video_url"))
     time.sleep(3)
     mid = publish(token, uid, cid)
     result = {"post_id": mid, "permalink": permalink(token, mid)}
