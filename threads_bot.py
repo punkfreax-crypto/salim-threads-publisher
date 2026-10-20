@@ -104,7 +104,12 @@ def posted_today(log, kind=None):
 
 
 # ---------- 발행 ----------
-def create_container(token, uid, text, image_url=None, reply_to=None, video_url=None):
+def clean_tag(tag):
+    tag = (tag or "").strip().lstrip("#").replace(".", "").replace("&", "")
+    return tag[:50]
+
+
+def create_container(token, uid, text, image_url=None, reply_to=None, video_url=None, topic_tag=None, poll=None):
     p = {"access_token": token, "text": text}
     if video_url:
         p.update(media_type="VIDEO", video_url=video_url)
@@ -112,8 +117,14 @@ def create_container(token, uid, text, image_url=None, reply_to=None, video_url=
         p.update(media_type="IMAGE", image_url=image_url)
     else:
         p.update(media_type="TEXT")
+        # 진짜 투표: 글자 글에만 가능, 선택지 2~4개, 각 25자 이내
+        if poll and 2 <= len(poll) <= 4 and all(1 <= len(o) <= 25 for o in poll):
+            p["poll_attachment"] = json.dumps({f"option_{k}": o for k, o in zip("abcd", poll)}, ensure_ascii=False)
     if reply_to:
         p["reply_to_id"] = reply_to
+    tag = clean_tag(topic_tag)
+    if tag and not reply_to:
+        p["topic_tag"] = tag
     return http("POST", f"{API}/{uid}/threads", p)["id"]
 
 
@@ -142,7 +153,9 @@ def post_item(item):
     text = item["text"].strip()
     if len(text) > 500:
         raise RuntimeError("본문 500자 초과")
-    cid = create_container(token, uid, text, item.get("image_url"), video_url=item.get("video_url"))
+    tag = item.get("topic_tag") or (config().get("topic_tags") or [None])[0]
+    cid = create_container(token, uid, text, item.get("image_url"), video_url=item.get("video_url"),
+                           topic_tag=tag, poll=item.get("poll"))
     time.sleep(3)
     mid = publish(token, uid, cid)
     result = {"post_id": mid, "permalink": permalink(token, mid)}
