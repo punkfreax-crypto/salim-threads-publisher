@@ -506,6 +506,44 @@ def cmd_test(text):
     print(res)
 
 
+# 서버가 accounts/ 폴더를 커밋하므로 살림도 accounts/salim/에 저장
+CLICKS = os.path.join(BASE, "accounts", ACC, "clicks.json")
+
+
+def cmd_clicks(quiet=False):
+    """스레드 API 링크 클릭 수(실시간 누적)를 clicks.json에 기록. 증가분이 있으면 출력."""
+    s = secrets()
+    # 기본 조회 구간은 최근 24시간이라, 계정 시작일부터 지금까지 누적으로 조회
+    start = config().get("account_started") or "2026-10-13"
+    since = int(dt.datetime.fromisoformat(start[:10] + "T00:00:00+09:00").timestamp())
+    r = http("GET", f"{API}/{s['THREADS_USER_ID']}/threads_insights",
+             {"metric": "clicks", "since": since, "until": int(time.time()), "access_token": s["THREADS_ACCESS_TOKEN"]})
+    links = {}
+    for d in r.get("data", []):
+        for v in d.get("link_total_values", []) or []:
+            links[v.get("link_url")] = links.get(v.get("link_url"), 0) + int(v.get("value") or 0)
+    old = load_json(CLICKS, {})
+    prev = old.get("links", {})
+    total, ptotal = sum(links.values()), sum(prev.values())
+    hist = old.get("history", [])
+    if not hist or hist[-1]["total"] != total:
+        hist.append({"t": now().isoformat(timespec="minutes"), "total": total})
+    os.makedirs(os.path.dirname(CLICKS), exist_ok=True)
+    save_json(CLICKS, {"updated": now().isoformat(timespec="minutes"), "total": total,
+                       "links": links, "history": hist[-200:]})
+    if total > ptotal:
+        diff = {u: links[u] - prev.get(u, 0) for u in links if links[u] > prev.get(u, 0)}
+        msg = f"클릭 증가: +{total - ptotal} (누적 {total}) " + ", ".join(f"{u.rsplit('/',1)[-1]} +{n}" for u, n in diff.items())
+        print(msg)
+        if os.environ.get("GITHUB_ACTIONS"):
+            with open(os.path.join(BASE, "server_run.log"), "a", encoding="utf-8") as f:
+                f.write(f"=== [{ACC}] {now().strftime('%Y-%m-%d %H:%M:%S')}\n{msg}\n")
+    elif not quiet:
+        print(f"클릭 누적 {total} (변동 없음)")
+        for u, n in sorted(links.items(), key=lambda x: -x[1]):
+            print(f"  {n:>3}  {u}")
+
+
 if __name__ == "__main__":
     c = sys.argv[1] if len(sys.argv) > 1 else "status"
     if c == "run":
@@ -513,6 +551,11 @@ if __name__ == "__main__":
             with file_lock(".run.lock", wait=5):
                 cmd_refresh()
                 cmd_run()
+            if os.environ.get("GITHUB_ACTIONS"):
+                try:
+                    cmd_clicks(quiet=True)
+                except Exception as e:
+                    print("클릭 조회 실패(무시):", str(e)[:120])
         except RuntimeError as e:
             print("건너뜀:", e)
     elif c == "refresh":
@@ -529,5 +572,7 @@ if __name__ == "__main__":
         cmd_candidates(int(sys.argv[2]) if len(sys.argv) > 2 else None)
     elif c == "attach":
         cmd_attach(sys.argv[2], sys.argv[3])
+    elif c == "clicks":
+        cmd_clicks(quiet="--quiet" in sys.argv)
     else:
         cmd_status()
