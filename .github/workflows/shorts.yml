@@ -1,0 +1,38 @@
+name: shorts
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 */2 * * *"
+concurrency:
+  group: shorts
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  shorts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: deps
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null
+          pip install -q edge-tts google-auth google-auth-oauthlib google-api-python-client
+      - name: render
+        run: |
+          [ -f shorts/queue.json ] || exit 0
+          python3 render_short.py
+      - name: upload
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          if [ -n "$YT_REFRESH_TOKEN" ] && [ -f upload_short.py ]; then python3 upload_short.py; else echo "업로드 설정 전 - 렌더만"; fi
+      - name: commit
+        run: |
+          git config user.name "salim-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -A shorts out 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "shorts $(TZ=Asia/Seoul date '+%F %H:%M')"
+          for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && exit 0; sleep 4; done
