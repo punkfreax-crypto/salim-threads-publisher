@@ -144,6 +144,10 @@ def post_item(item):
     time.sleep(3)
     mid = publish(token, uid, cid)
     result = {"post_id": mid, "permalink": permalink(token, mid)}
+    if item.get("reply_text") and item.get("reply_delay_min"):
+        result["reply_due"] = (now() + dt.timedelta(minutes=int(item["reply_delay_min"]))).isoformat()
+        result["reply_pending"] = True
+        return result
     if item.get("reply_text"):
         reply = item["reply_text"].strip()
         if item["type"] == "ad" and DISCLOSURE not in reply:
@@ -172,6 +176,24 @@ def cmd_run():
     log = load_json(LOG, [])
     day, ph = phase_info()
     done = 0
+    # 지연된 링크 답글 처리 (실험: 본글이 먼저 퍼진 뒤 2/2 링크)
+    for item in q:
+        if item.get("reply_pending") and item.get("post_id") and dt.datetime.fromisoformat(item["reply_due"]) <= now():
+            try:
+                s0 = secrets()
+                reply = item["reply_text"].strip()
+                if item["type"] == "ad" and DISCLOSURE not in reply:
+                    reply = DISCLOSURE + "\n\n" + reply
+                rcid = create_container(s0["THREADS_ACCESS_TOKEN"], s0["THREADS_USER_ID"], reply, reply_to=item["post_id"])
+                time.sleep(3)
+                item["reply_id"] = publish(s0["THREADS_ACCESS_TOKEN"], s0["THREADS_USER_ID"], rcid)
+                item["reply_pending"] = False
+                item["reply_posted_at"] = now().isoformat()
+                print(f"지연 링크 답글 발행: {item['id']}")
+            except Exception as e:
+                item["note"] = "지연 답글 실패: " + str(e)[:200]
+                print(f"실패: 지연 답글 {item['id']} {e}")
+            save_json(QUEUE, q)
     for item in sorted(q, key=lambda x: x["scheduled_at"]):
         if item.get("status") != "queued":
             continue
