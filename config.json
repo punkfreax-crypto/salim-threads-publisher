@@ -64,5 +64,11 @@
   "attach_min_views_early": 300,
   "server_publish": true,
   "goal_daily_krw": 20000,
-  "topic": "살림·자취·청소·세탁·정리"
+  "topic": "살림·자취·청소·세탁·정리",
+  "profile_link": {
+    "url": "https://link.coupang.com/a/hZ41QJmoCW",
+    "label": "오늘 쿠팡 특가 모음 (파트너스)",
+    "channel": "thAttach01",
+    "set": "2026-10-20"
+  }
 }
