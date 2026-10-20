@@ -281,24 +281,10 @@
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261021-01.png"
   },
   {
-    "id": "20261021-02",
-    "type": "ad",
-    "format": "review",
-    "scheduled_at": "2026-10-21T11:11:00+09:00",
-    "status": "queued",
-    "product": "조은리빙 이불 압축팩 (products/8451050587, 상품평 31,916)",
-    "text": "이불 압축팩 후기 보다가 웃었던 말\n\n\"장롱문이 안 닫히기 시작하면 그때가 압축팩 살 때\"\n\n지금 딱 여름 이불 넣고 겨울 이불 꺼내는 시기잖아\n후기 보면 넣고 청소기로 공기 빼니까 부피가 서너 배는 줄었다는 얘기가 계속 나와\n이불 세 개 자리에 열 개 들어갔다는 사람도 있더라\n\n너네 여름 이불 어디에 넣어둬? (제품은 2/2)",
-    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n👉 조은리빙 이불 압축팩 (상품평 3만개+)\nhttps://link.coupang.com/a/hW7zWMqAmq\n\n넣을 이불을 미리 재보고 사이즈 고르라는 후기가 있었고, 청소기에 따라 공기가 잘 안 빨렸다는 후기도 있으니 참고해",
-    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261021-02.png",
-    "reply_delay_min": 0,
-    "experiment": "B-즉시+이미지",
-    "topic_tag": "살림템 추천"
-  },
-  {
     "id": "20261021-03",
     "type": "info",
     "format": "vote",
-    "scheduled_at": "2026-10-21T12:38:00+09:00",
+    "scheduled_at": "2026-10-21T11:58:00+09:00",
     "status": "queued",
     "text": "자취방 바닥 청소 뭐로 해?\n\n투표하고 나만 아는 바닥 청소 요령 있으면 댓글로 하나씩 남겨줘\n제일 많이 나온 걸로 관리 팁 따로 정리해볼게",
     "topic_tag": "자취 꿀팁",
@@ -308,6 +294,18 @@
       "로봇청소기",
       "솔직히 거의 안 함"
     ]
+  },
+  {
+    "id": "20261021-07",
+    "type": "ad",
+    "format": "list",
+    "status": "queued",
+    "scheduled_at": "2026-10-21T13:08:00+09:00",
+    "topic_tag": "쿠가세",
+    "reply_delay_min": 0,
+    "product": "쿠팡 가전디지털 세일(쿠가세) 행사 페이지 pages.coupang.com/p/175986",
+    "text": "쿠팡 가전세일 25일까지인데\n매일 오후 2시 오픈런 아직 모르는 사람\n\n- 2시에 한정 수량 초특가가 풀림 (선착순)\n- 브랜드샵 찜하면 추가 쿠폰\n- 전기히터·가습기 같은 겨울 가전 일부는 1~2만원대\n- 로봇청소기, 김장철 주방가전도 들어가 있음\n\n가전 바꿀 계획 있었으면 2시 전에 장바구니 담아두기\n행사 페이지는 2/2",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n쿠가세 행사 페이지 (2시 오픈런도 여기)\nhttps://link.coupang.com/a/h0kKzc0xfo\n\n한정 수량이라 인기 상품은 금방 품절될 수 있대"
   },
   {
     "id": "20261022-V1",
@@ -322,22 +320,36 @@
     "topic_tag": "살림템 추천"
   },
   {
+    "id": "20261021-06",
+    "type": "info",
+    "format": "question",
+    "status": "queued",
+    "scheduled_at": "2026-10-21T21:41:00+09:00",
+    "topic_tag": "살림템 추천",
+    "text": "쿠팡에서 3번 넘게 재구매한 살림템 있어?\n\n한 번 써보고 계속 사게 되는 거\n하나씩만 댓글로 남겨줘\n많이 나온 거 모아서 정리해서 올릴게\n\n(스레드야 이 글 살림 고수들한테 데려다줘)"
+  },
+  {
     "id": "20261021-05",
     "type": "info",
     "format": "humor",
-    "scheduled_at": "2026-10-21T21:41:00+09:00",
+    "scheduled_at": "2026-10-21T22:46:00+09:00",
     "status": "queued",
     "text": "자취방 청소 현실\n\n계획: 토요일 오전에 싹 대청소\n토요일 오전: 일단 누워서 청소 영상 봄\n토요일 오후: 영상 속 집이 너무 깨끗해서 의욕 상실\n일요일 밤 11시: 갑자기 욕실 줄눈까지 닦고 있음\n\n다들 청소 스위치 언제 켜져?\n이런 자취 살림 얘기 매일 올리니까 팔로우해두면 편해",
     "topic_tag": "자취생"
   },
   {
-    "id": "20261021-06",
-    "type": "info",
-    "format": "question",
+    "id": "20261021-02",
+    "type": "ad",
+    "format": "review",
+    "scheduled_at": "2026-10-22T11:11:00+09:00",
     "status": "queued",
-    "scheduled_at": "2026-10-21T22:46:00+09:00",
-    "topic_tag": "살림템 추천",
-    "text": "쿠팡에서 3번 넘게 재구매한 살림템 있어?\n\n한 번 써보고 계속 사게 되는 거\n하나씩만 댓글로 남겨줘\n\n많이 나온 거 모아서 정리해서 올릴게"
+    "product": "조은리빙 이불 압축팩 (products/8451050587, 상품평 31,916)",
+    "text": "이불 압축팩 후기 보다가 웃었던 말\n\n\"장롱문이 안 닫히기 시작하면 그때가 압축팩 살 때\"\n\n지금 딱 여름 이불 넣고 겨울 이불 꺼내는 시기잖아\n후기 보면 넣고 청소기로 공기 빼니까 부피가 서너 배는 줄었다는 얘기가 계속 나와\n이불 세 개 자리에 열 개 들어갔다는 사람도 있더라\n\n너네 여름 이불 어디에 넣어둬? (제품은 2/2)",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n👉 조은리빙 이불 압축팩 (상품평 3만개+)\nhttps://link.coupang.com/a/hW7zWMqAmq\n\n넣을 이불을 미리 재보고 사이즈 고르라는 후기가 있었고, 청소기에 따라 공기가 잘 안 빨렸다는 후기도 있으니 참고해",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261021-02.png",
+    "reply_delay_min": 0,
+    "experiment": "B-즉시+이미지",
+    "topic_tag": "살림템 추천"
   },
   {
     "id": "20261021-04",
