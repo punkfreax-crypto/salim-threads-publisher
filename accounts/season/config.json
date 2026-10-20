@@ -58,5 +58,11 @@
     },
     "channel_registered": true,
     "channel_registered_note": "2026-10-20 사용자 등록 완료 통보(쿠팡 2차 인증 때문에 화면 확인은 못 함)"
-  }
+  },
+  "topic_tags": [
+    "생활 정보",
+    "생활 팁",
+    "생활비",
+    "살림 꿀팁"
+  ]
 }
