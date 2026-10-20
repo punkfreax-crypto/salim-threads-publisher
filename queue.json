@@ -279,10 +279,13 @@
     "type": "info",
     "format": "tip",
     "scheduled_at": "2026-10-21T07:43:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "text": "세탁기에서 꿉꿉한 냄새 나기 시작했으면 이것부터 봐\n\n1. 빨래 끝나면 문 활짝 열어두기 (안쪽 물기 마르게)\n2. 고무패킹 접힌 안쪽은 마른 수건으로 한 번 훑기\n3. 세제 넣는 서랍도 빼서 말려두기\n4. 이미 까맣게 낀 건 세탁조 청소하는 날 같이 닦기\n\n냄새는 대부분 남아 있는 물기에서 시작돼\n너네 세탁조 청소 몇 달에 한 번 해?",
     "topic_tag": "살림 꿀팁",
-    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261021-01.png"
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261021-01.png",
+    "posted_at": "2026-10-21T07:52:45.493719+09:00",
+    "post_id": "18108736769213044",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/Deu8xJbIOeF"
   },
   {
     "id": "20261021-03",
