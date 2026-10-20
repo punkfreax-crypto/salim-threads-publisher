@@ -228,13 +228,18 @@
     "id": "20261020-03",
     "type": "ad",
     "scheduled_at": "2026-10-20T18:45:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "format": "tip",
     "product": "에스엠지 냄새제로 하수구트랩 50mm (products/7380618078)",
     "text": "화장실이나 세탁실 바닥에서 하수구 냄새 올라오면\n\n방향제 먼저 사지 말고 배수구부터 봐\n\n냄새는 대부분 배관 아래에서 공기가 그대로 올라와서 나는 거라\n위에서 덮어도 금방 다시 남\n\n1. 배수구 뚜껑 열고 머리카락부터 빼기\n2. 뜨거운 물 한 바가지 부어주기\n3. 그래도 나면 트랩 달아서 공기 길 막기\n\n너네 집은 어디서 제일 냄새 나?\n\n배수구에 끼우는 트랩은 댓글에 남겨둠👇",
     "reply_text": "👉 배수구에 끼우는 냄새 차단 트랩 50mm (리뷰 3.6만개+)\nhttps://link.coupang.com/a/hW7wUnEBZA\n\n이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
     "reply_delay_min": 90,
-    "experiment": "A-지연90분"
+    "experiment": "A-지연90분",
+    "posted_at": "2026-10-20T18:47:13.077943+09:00",
+    "post_id": "18132359689780989",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/Deti4FtloSZ",
+    "reply_due": "2026-10-20T20:17:13.077916+09:00",
+    "reply_pending": true
   },
   {
     "id": "20261020-04",
