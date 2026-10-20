@@ -196,6 +196,23 @@ def cmd_run():
         if item.get("reply_pending") and item.get("post_id") and dt.datetime.fromisoformat(item["reply_due"]) <= now():
             try:
                 s0 = secrets()
+                # 중복 방지: 이미 기록이 있거나, 본글에 같은 링크가 든 답글이 이미 있으면 다시 달지 않음
+                if item.get("reply_id") or item.get("reply_posted_at"):
+                    item["reply_pending"] = False
+                    save_json(QUEUE, q)
+                    continue
+                import re as _re
+                urls = _re.findall(r"https://link\.coupang\.com/a/\w+", item.get("reply_text", ""))
+                ex = http("GET", f"{API}/{item['post_id']}/replies",
+                          {"fields": "id,text", "access_token": s0["THREADS_ACCESS_TOKEN"]}).get("data", [])
+                dup = [c for c in ex if urls and any(u in (c.get("text") or "") for u in urls)]
+                if dup:
+                    item["reply_pending"] = False
+                    item["reply_id"] = dup[0]["id"]
+                    item["note"] = "지연 답글 이미 있음 - 재발행 안 함"
+                    save_json(QUEUE, q)
+                    print(f"지연 답글 중복 차단: {item['id']}")
+                    continue
                 reply = item["reply_text"].strip()
                 if item["type"] == "ad" and DISCLOSURE not in reply:
                     reply = DISCLOSURE + "\n\n" + reply
