@@ -109,6 +109,14 @@ def clean_tag(tag):
     return tag[:50]
 
 
+def poll_ok(poll):
+    return bool(poll) and 2 <= len(poll) <= 4 and all(1 <= len(o.encode("utf-8")) <= 25 for o in poll)
+
+
+def poll_as_text(text, poll):
+    return text.rstrip() + "\n\n" + "\n".join(f"{i}) {o}" for i, o in enumerate(poll, 1))
+
+
 def create_container(token, uid, text, image_url=None, reply_to=None, video_url=None, topic_tag=None, poll=None):
     p = {"access_token": token, "text": text}
     if video_url:
@@ -117,8 +125,8 @@ def create_container(token, uid, text, image_url=None, reply_to=None, video_url=
         p.update(media_type="IMAGE", image_url=image_url)
     else:
         p.update(media_type="TEXT")
-        # 진짜 투표: 글자 글에만 가능, 선택지 2~4개, 각 25자 이내
-        if poll and 2 <= len(poll) <= 4 and all(1 <= len(o) <= 25 for o in poll):
+        # 진짜 투표: 글자 글에만 가능, 선택지 2~4개, 각 25바이트 이내(UTF-8 기준, 한글 1자=3바이트 → 공백 포함 약 8자)
+        if poll_ok(poll):
             p["poll_attachment"] = json.dumps({f"option_{k}": o for k, o in zip("abcd", poll)}, ensure_ascii=False)
     if reply_to:
         p["reply_to_id"] = reply_to
@@ -154,8 +162,21 @@ def post_item(item):
     if len(text) > 500:
         raise RuntimeError("본문 500자 초과")
     tag = item.get("topic_tag") or (config().get("topic_tags") or [None])[0]
-    cid = create_container(token, uid, text, item.get("image_url"), video_url=item.get("video_url"),
-                           topic_tag=tag, poll=item.get("poll"))
+    poll = item.get("poll")
+    if poll and not poll_ok(poll):
+        # 선택지가 길면 투표 대신 번호 목록으로 붙여서라도 발행 (발행 실패 방지)
+        print(f"투표 선택지 길이 초과 → 글자 목록으로 대체: {item.get('id')}")
+        text, poll = poll_as_text(text, poll), None
+    try:
+        cid = create_container(token, uid, text, item.get("image_url"), video_url=item.get("video_url"),
+                               topic_tag=tag, poll=poll)
+    except RuntimeError as e:
+        if poll and ("4279063" in str(e) or "Poll" in str(e)):
+            print(f"투표 거부 → 글자 목록으로 재시도: {item.get('id')}")
+            cid = create_container(token, uid, poll_as_text(text, poll), item.get("image_url"),
+                                   video_url=item.get("video_url"), topic_tag=tag)
+        else:
+            raise
     time.sleep(3)
     mid = publish(token, uid, cid)
     result = {"post_id": mid, "permalink": permalink(token, mid)}
