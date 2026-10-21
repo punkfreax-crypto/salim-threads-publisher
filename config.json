@@ -92,5 +92,27 @@
       "set": "2026-10-20",
       "remove_after": "2026-10-25"
     }
-  ]
+  ],
+  "youtube": {
+    "channel": "@ggultemnote2026",
+    "coupang_registered": "2026-10-21",
+    "coupang_channel_id": "ytShorts01",
+    "profile_links": [
+      {
+        "no": 1,
+        "name": "옷장 제습제",
+        "url": "https://link.coupang.com/a/h1euzRRt3Q"
+      },
+      {
+        "no": 2,
+        "name": "배수구 자동개폐 덮개",
+        "url": "https://link.coupang.com/a/h1evpzpxYq"
+      },
+      {
+        "no": 3,
+        "name": "이불 압축팩",
+        "url": "https://link.coupang.com/a/h1ewd3sjhQ"
+      }
+    ]
+  }
 }
