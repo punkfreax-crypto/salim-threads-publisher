@@ -192,9 +192,15 @@
       "이십 미터짜리라 창문이랑 현관문까지 필요한 만큼 잘라서 한 번에 붙일 수 있대요.",
       "붙이기 전에 먼지랑 물기부터 닦아야 오래 붙어 있어요. 제품 정보는 프로필 링크 6번에 있어요."
     ],
-    "status": "rendered",
+    "status": "uploaded",
     "video_path": "out/S20261022-01.mp4",
-    "duration": 24.9
+    "duration": 24.9,
+    "url": "https://youtube.com/shorts/XmR0S3ipyf0",
+    "scheduled_public": "2026-10-22T18:00+09:00",
+    "product": "히트키퍼 문풍지 20m (products/8397270131)",
+    "link": "https://link.coupang.com/a/h2mMy2iyqG",
+    "profile_link_no": 6,
+    "uploaded_at": "2026-10-22T03:40+09:00"
   },
   {
     "id": "S20261023-01",
@@ -220,8 +226,14 @@
       "이불 정도로 얇고 가벼워서 접어서 보관하기 쉽고, 캠핑에 들고 간다는 후기도 있었어요.",
       "침대 크기에 맞춰서 사이즈를 고르세요. 제품 정보는 프로필 링크 7번에 있어요."
     ],
-    "status": "rendered",
+    "status": "uploaded",
     "video_path": "out/S20261023-01.mp4",
-    "duration": 23.5
+    "duration": 23.5,
+    "url": "https://youtube.com/shorts/v7lTh55yWrc",
+    "scheduled_public": "2026-10-23T18:00+09:00",
+    "product": "한일 탄소열선 전기요 HL-D205 (products/9150828084)",
+    "link": "https://link.coupang.com/a/h2mNqJTkbs",
+    "profile_link_no": 7,
+    "uploaded_at": "2026-10-22T03:40+09:00"
   }
 ]
