@@ -94,6 +94,21 @@
     "note": "HTTP 400: {\"error\":{\"message\":\"Invalid parameter\",\"type\":\"OAuthException\",\"code\":100,\"error_subcode\":4279063,\"is_transient\":false,\"error_user_title\":\"Poll Option Has Invalid Length\",\"error_user_msg\":\"Options for poll attachments must have between 1 and 25 characters, inclusive.\",\"fbtrace_id\":\"AWloCI"
   },
   {
+    "id": "20261021-02b",
+    "type": "info",
+    "format": "vote",
+    "text": "계란 냉장고 어디에 둬?\n\n투표해주면 제일 많이 나온 거 기준으로 장단점 정리해볼게",
+    "scheduled_at": "2026-10-21T15:37:00+09:00",
+    "status": "queued",
+    "topic_tag": "주방 정리",
+    "poll": [
+      "냉장고 문 계란칸",
+      "안쪽 선반",
+      "계란판째 그대로",
+      "그냥 실온"
+    ]
+  },
+  {
     "id": "20261021-03",
     "type": "info",
     "format": "tip",
