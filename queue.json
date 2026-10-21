@@ -435,6 +435,16 @@
     "text": "자취방 냄새 잡는 나만의 방법 있어?\n\n음식 냄새든 습한 냄새든 상관없어\n써보고 효과 있었던 거 하나씩만 댓글로 남겨줘\n모이면 정리해서 올릴게\n\n(스레드야 이 글 자취생들한테 데려다줘)"
   },
   {
+    "id": "20261023-01",
+    "scheduled_at": "2026-10-23T07:43:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "text": "니트 몇 번 빨았더니 보풀 일어났으면 세탁 습관부터 봐\n\n1. 뒤집어서 세탁망에 넣기\n2. 니트는 울코스나 손세탁, 세게 비비지 않기\n3. 건조기 고온은 피하고 눕혀서 말리기\n4. 이미 생긴 보풀은 손으로 뜯지 말고 보풀제거기로 살살\n\n너네는 니트 빨래 어떻게 해?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261023-01.png",
+    "status": "queued"
+  },
+  {
     "id": "20261021-02",
     "type": "ad",
     "format": "review",
@@ -448,5 +458,120 @@
     "experiment": "B-즉시+이미지",
     "topic_tag": "살림템 추천",
     "note": "10/22 광고 칸을 쿠가세 오픈런 글에 양보 → 10/23로 이동"
+  },
+  {
+    "id": "20261023-K1",
+    "scheduled_at": "2026-10-23T13:24:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "쿠가세",
+    "text": "쿠팡 가전세일(쿠가세) 이번 주 일요일까지야\n오늘 포함 2시 오픈런 3번 남았어\n\n- 매일 오후 2시 한정 수량 특가 (선착순)\n- 수요일엔 2시 5분에 벌써 마감된 상품도 있었어\n- 로봇청소기, 김장철 주방가전, 겨울 가전도 들어가 있음\n- 브랜드샵 찜하면 추가 쿠폰\n\n가전 바꿀 계획 있었으면 주말 전에 한번 봐둬\n행사 페이지는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n쿠가세 행사 페이지 (오늘 2시 오픈런도 여기)\nhttps://link.coupang.com/a/h2mAEUaD1w\n\n한정 수량이라 인기 상품은 금방 마감돼",
+    "reply_delay_min": 0,
+    "product": "쿠팡 가전디지털 세일(쿠가세) 행사 페이지 pages.coupang.com/p/175986",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261023-K1.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261023-02",
+    "scheduled_at": "2026-10-23T20:18:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "text": "버려야 하는 거 아는데 끝까지 못 버리는 물건 있어?\n\n쇼핑백, 택배 박스, 안 맞는 옷, 고장 난 충전기 같은 거\n너네는 뭐야? 하나씩만 댓글로 남겨줘\n많이 나온 거 모아서 버리는 기준 정리해볼게",
+    "status": "queued"
+  },
+  {
+    "id": "20261023-03",
+    "scheduled_at": "2026-10-23T21:31:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "살림 꿀팁",
+    "text": "베개에서 쉰내 나기 시작했으면 커버만 빨아서는 안 없어져\n\n1. 커버는 수건처럼 자주 빨기\n2. 베개 속은 세탁 표시부터 확인 (물세탁 되는 것만)\n3. 빨았으면 속까지 완전히 말리기, 덜 마르면 냄새 더 남\n4. 젖은 머리로 눕지 않기\n\n베개 몇 년 썼는지 기억나?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261023-03.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261023-04",
+    "scheduled_at": "2026-10-23T22:44:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "text": "자취생 장보기 현실\n\n계획: 일주일 식단 짜서 필요한 것만\n마트: 1+1 보고 계획 무너짐\n집: 냉장고에 자리가 없음\n일주일 뒤: 양파에서 싹 남\n\n너네는 장보기 계획 지켜본 적 있어?",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-01",
+    "scheduled_at": "2026-10-24T07:36:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "text": "패딩 꺼냈는데 숨 죽어서 납작하면 세탁소 가기 전에 이거 봐\n\n1. 세탁 표시부터 확인 (드라이만 되면 세탁소로)\n2. 물세탁 되면 지퍼·단추 다 잠그고 뒤집기\n3. 중성세제로 미지근한 물, 섬유유연제는 넣지 않기\n4. 완전히 말린 다음 손으로 톡톡 두드려서 털 살리기\n\n너네 패딩 집에서 빨아?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261024-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-02",
+    "scheduled_at": "2026-10-24T12:12:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "생활 팁",
+    "text": "창틀 청소할 때 물부터 뿌리면 먼지가 진흙 돼\n\n1. 마른 붓이나 안 쓰는 칫솔로 먼지 먼저 쓸기\n2. 청소기 틈새 노즐로 한 번 빨아들이기\n3. 그다음에 젖은 천이나 물티슈로 닦기\n4. 레일 끝 물빠짐 구멍 막혔는지 확인\n5. 마지막에 마른 천으로 물기 정리\n\n겨울 전에 한 번 해두면 결로 생겨도 덜 지저분해",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261024-02.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-K1",
+    "scheduled_at": "2026-10-24T13:24:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "쿠가세",
+    "text": "쿠팡 가전세일 내일(일요일)이면 끝나\n\n- 오늘이랑 내일, 오후 2시 오픈런 2번 남음\n- 한정 수량이라 인기 상품은 금방 마감\n- 겨울 가전 일부는 1~2만원대로 나온다고 공지됨\n- 브랜드샵 찜하면 추가 쿠폰\n\n주말에 가전 보려던 사람은 오늘 2시 전에 장바구니 담아둬\n행사 페이지는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n쿠가세 행사 페이지 (오늘 2시 오픈런도 여기)\nhttps://link.coupang.com/a/h2mAEUaD1w\n\n행사는 내일(25일)까지",
+    "reply_delay_min": 0,
+    "product": "쿠팡 가전디지털 세일(쿠가세) 행사 페이지 pages.coupang.com/p/175986",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261024-K1.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-03",
+    "scheduled_at": "2026-10-24T20:19:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "text": "자취하고 나서야 처음 알게 된 살림 상식 있어?\n\n세탁기도 청소해야 된다든지\n수건엔 섬유유연제를 조금만 넣는 게 낫다든지 같은 거\n\n하나씩 남겨주면 모아서 정리해볼게",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-04",
+    "scheduled_at": "2026-10-24T21:33:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "살림 꿀팁",
+    "text": "여름옷 넣고 겨울옷 꺼낼 때 이 순서로 해\n\n1. 넣을 옷은 빨아서 완전히 말린 다음 넣기 (얼룩 남으면 누렇게 변함)\n2. 니트는 걸지 말고 개서 보관 (어깨 늘어남)\n3. 압축팩은 이불처럼 부피 큰 것 위주로, 니트·가죽은 압축 X\n4. 보관함에 제습제 같이 넣기\n5. 꺼낸 겨울옷은 바로 입지 말고 하루 바람 쐬기\n\n너네 옷 정리 벌써 했어?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261024-04.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-05",
+    "scheduled_at": "2026-10-24T22:46:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "text": "택배 박스 쌓이는 단계\n\n1일차: 내일 버려야지\n3일차: 현관이 창고가 됨\n5일차: 박스 안에 박스 넣어서 정리한 척\n7일차: 분리수거 날 놓침\n\n너네는 박스 바로 버려?",
+    "status": "queued"
+  },
+  {
+    "id": "20261025-K1",
+    "scheduled_at": "2026-10-25T13:24:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "쿠가세",
+    "text": "쿠팡 가전세일 오늘이 마지막 날이야\n\n- 오늘 오후 2시가 마지막 오픈런\n- 장바구니에 담아둔 거 있으면 오늘 안에 확인\n- 브랜드샵 찜 쿠폰 쓸 거면 오늘 체크\n- 행사 끝나면 가격이 원래대로 돌아갈 수 있음\n\n행사 페이지는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n쿠가세 행사 페이지 (오늘 마지막 2시 오픈런)\nhttps://link.coupang.com/a/h2mAEUaD1w\n\n오늘 밤 행사 종료",
+    "reply_delay_min": 0,
+    "product": "쿠팡 가전디지털 세일(쿠가세) 행사 페이지 pages.coupang.com/p/175986",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261025-K1.png",
+    "status": "queued"
   }
 ]
