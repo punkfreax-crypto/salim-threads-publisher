@@ -158,8 +158,14 @@
       "매일 오후 두 시에 새 특가가 한정 수량으로 풀리고, 겨울 가전 일부는 일이만 원대래요.",
       "노리는 게 있으면 한 시 오십오 분쯤 미리 열어두세요. 행사 페이지는 프로필 링크 5번에 있어요."
     ],
-    "status": "rendered",
+    "status": "uploaded",
     "video_path": "out/S20261021-02.mp4",
-    "duration": 23.9
+    "duration": 23.9,
+    "url": "https://youtube.com/shorts/VmvnX5KnbJQ",
+    "uploaded_at": "2026-10-21T14:16+09:00",
+    "product": "쿠팡 가전디지털 세일(쿠가세) 행사 페이지",
+    "link": "https://link.coupang.com/a/h1rys7mN08",
+    "profile_link_no": 5,
+    "expires": "2026-10-25"
   }
 ]
