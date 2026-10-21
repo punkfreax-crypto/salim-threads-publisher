@@ -101,14 +101,17 @@
     "format": "vote",
     "text": "겨울 침대 뭐 깔고 자?\n\n투표해주면 많이 나온 거 기준으로 고를 때 볼 점 정리해볼게",
     "scheduled_at": "2026-10-21T17:18:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "topic_tag": "생활 정보",
     "poll": [
       "전기장판",
       "온수매트",
       "극세사 이불",
       "보일러만 틀어요"
-    ]
+    ],
+    "posted_at": "2026-10-21T17:27:21.259288+09:00",
+    "post_id": "18124655437701820",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/Dev-h29lnIC"
   },
   {
     "id": "20261021-03",
