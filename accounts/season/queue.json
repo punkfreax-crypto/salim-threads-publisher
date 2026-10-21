@@ -85,14 +85,15 @@
     "format": "vote",
     "text": "겨울 침대 뭐 깔고 자?\n\n투표해주면 많이 나온 거 기준으로 고를 때 볼 점 정리해볼게",
     "scheduled_at": "2026-10-21T12:47:00+09:00",
-    "status": "queued",
+    "status": "error",
     "topic_tag": "생활 정보",
     "poll": [
       "전기장판",
       "온수매트",
       "극세사 이불로 버팀",
       "보일러만으로 충분"
-    ]
+    ],
+    "note": "HTTP 400: {\"error\":{\"message\":\"Invalid parameter\",\"type\":\"OAuthException\",\"code\":100,\"error_subcode\":4279063,\"is_transient\":false,\"error_user_title\":\"Poll Option Has Invalid Length\",\"error_user_msg\":\"Options for poll attachments must have between 1 and 25 characters, inclusive.\",\"fbtrace_id\":\"AYbmd4"
   },
   {
     "id": "20261021-03",
