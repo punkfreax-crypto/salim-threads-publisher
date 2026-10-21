@@ -99,14 +99,17 @@
     "format": "vote",
     "text": "계란 냉장고 어디에 둬?\n\n투표해주면 제일 많이 나온 거 기준으로 장단점 정리해볼게",
     "scheduled_at": "2026-10-21T15:37:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "topic_tag": "주방 정리",
     "poll": [
       "냉장고 문 계란칸",
       "안쪽 선반",
       "계란판째 그대로",
       "그냥 실온"
-    ]
+    ],
+    "posted_at": "2026-10-21T15:46:43.964236+09:00",
+    "post_id": "18075743138475694",
+    "permalink": "https://www.threads.com/@kitchen.ggultem.note/post/DevzA7hFjh5"
   },
   {
     "id": "20261021-03",
