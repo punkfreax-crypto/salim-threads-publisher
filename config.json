@@ -80,17 +80,17 @@
   "slot_rule": "목록은 우선순위 순(밤·아침·점심 먼저). 하루 max_posts개를 앞에서부터 골라 시간순으로 배치, 0~25분 랜덤 오프셋",
   "profile_links": [
     {
+      "url": "https://link.coupang.com/a/h0ljWG7qhM",
+      "label": "쿠팡 가전세일 쿠가세 ~10/25 (파트너스)",
+      "channel": "thAttach01",
+      "set": "2026-10-21",
+      "remove_after": "2026-10-25"
+    },
+    {
       "url": "https://link.coupang.com/a/hZ41QJmoCW",
       "label": "오늘 쿠팡 특가 모음 (파트너스)",
       "channel": "thAttach01",
       "set": "2026-10-20"
-    },
-    {
-      "url": "https://link.coupang.com/a/h0ljWG7qhM",
-      "label": "쿠팡 가전세일 쿠가세 ~10/25 (파트너스)",
-      "channel": "thAttach01",
-      "set": "2026-10-20",
-      "remove_after": "2026-10-25"
     }
   ],
   "youtube": {
@@ -112,7 +112,13 @@
         "no": 3,
         "name": "이불 압축팩",
         "url": "https://link.coupang.com/a/h1ewd3sjhQ"
+      },
+      {
+        "no": 4,
+        "name": "논슬립 옷걸이",
+        "url": "https://link.coupang.com/a/h1eEDe2IqO"
       }
     ]
-  }
+  },
+  "profile_bio": "살림·자취 꿀팁 모아두는 노트 / 돈 아끼고 시간 아끼는 생활 정보 매일 정리 / ↓ 쿠팡 가전세일 2시 오픈런(~10/25) · 오늘 특가 모음 (쿠팡 파트너스 링크, 수수료를 받아요)"
 }
