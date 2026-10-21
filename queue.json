@@ -346,6 +346,16 @@
     "topic_tag": "자취생"
   },
   {
+    "id": "20261022-01",
+    "type": "info",
+    "format": "tip",
+    "scheduled_at": "2026-10-22T07:41:00+09:00",
+    "status": "queued",
+    "topic_tag": "살림 꿀팁",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261022-01.png",
+    "text": "신발장 열 때마다 냄새 훅 올라오면 방향제부터 사지 마\n\n1. 벗은 신발은 하루 밖에서 말리고 넣기\n2. 신발 속에 신문지 구겨 넣어서 습기 빼기\n3. 신발장 문 가끔 열어서 환기\n4. 구석에 베이킹소다 한 그릇 두기\n\n냄새는 대부분 덜 마른 신발에서 시작돼\n너네 신발장은 괜찮아?"
+  },
+  {
     "id": "20261021-02",
     "type": "ad",
     "format": "review",
@@ -360,6 +370,21 @@
     "topic_tag": "살림템 추천"
   },
   {
+    "id": "20261022-02",
+    "type": "info",
+    "format": "vote",
+    "scheduled_at": "2026-10-22T12:22:00+09:00",
+    "status": "queued",
+    "topic_tag": "살림 꿀팁",
+    "poll": [
+      "액체 세제",
+      "캡슐 세제",
+      "가루 세제",
+      "시트 세제"
+    ],
+    "text": "자취러들 빨래 세제 뭐 써?\n\n투표하고 그거 쓰는 이유도 댓글로 남겨줘\n향 때문인지 편해서인지 궁금함"
+  },
+  {
     "id": "20261021-04",
     "type": "ad",
     "format": "review",
@@ -372,5 +397,24 @@
     "reply_delay_min": 90,
     "experiment": "C-지연90분+이미지",
     "topic_tag": "살림템 추천"
+  },
+  {
+    "id": "20261022-03",
+    "type": "info",
+    "format": "list",
+    "scheduled_at": "2026-10-22T21:34:00+09:00",
+    "status": "queued",
+    "topic_tag": "자취 꿀팁",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261022-03.png",
+    "text": "자취방 좁다고 짐부터 버리기 전에 이거 먼저 봐\n\n1. 바닥에 내려놓은 물건이 많음\n2. 가구 높이가 제각각\n3. 수납함 색이 여러 개\n4. 창문 앞을 큰 가구가 막음\n\n같은 짐이어도 바닥이 보이면 훨씬 넓어 보여\n너네 방은 몇 번이 제일 걸려?"
+  },
+  {
+    "id": "20261022-04",
+    "type": "info",
+    "format": "question",
+    "scheduled_at": "2026-10-22T22:47:00+09:00",
+    "status": "queued",
+    "topic_tag": "자취 꿀팁",
+    "text": "자취방 냄새 잡는 나만의 방법 있어?\n\n음식 냄새든 습한 냄새든 상관없어\n써보고 효과 있었던 거 하나씩만 댓글로 남겨줘\n모이면 정리해서 올릴게\n\n(스레드야 이 글 자취생들한테 데려다줘)"
   }
 ]
