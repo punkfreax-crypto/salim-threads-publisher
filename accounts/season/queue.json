@@ -153,5 +153,63 @@
     "scheduled_at": "2026-10-22T22:27:00+09:00",
     "status": "queued",
     "topic_tag": "생활 팁"
+  },
+  {
+    "id": "20261023-01",
+    "scheduled_at": "2026-10-23T08:14:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "생활 정보",
+    "text": "가습기 꺼냈으면 이것만은 매일 해\n\n1. 물은 매일 새로 갈기 (남은 물에 계속 붓지 않기)\n2. 물통은 자주 씻고 완전히 말리기\n3. 물에 아무것도 섞지 않기\n4. 얼굴 쪽으로 바로 뿜지 않게, 벽·가구에서 띄우기\n\n너네 가습기 물 매일 갈아?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261023-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261023-02",
+    "scheduled_at": "2026-10-23T12:43:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활비",
+    "text": "난방비 고지서 보고 놀란 사람 손\n\n본격적으로 추워지기 전인데 벌써 고지서가 무섭다는 얘기 많더라\n너네 집은 몇 평에 지난겨울 한 달 난방비 얼마 나왔어?\n\n많이 나온 집이랑 적게 나온 집 차이 정리해볼게",
+    "status": "queued"
+  },
+  {
+    "id": "20261023-03",
+    "scheduled_at": "2026-10-23T22:23:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "text": "겨울에 빨래 방 안에서 말리면 꿉꿉한 냄새 나는 이유\n\n빨리 안 말라서 그래\n1. 빨래 사이 간격 주먹 하나 이상 띄우기\n2. 두꺼운 건 바깥쪽, 얇은 건 가운데\n3. 선풍기·서큘레이터 바람 같이 쐬기\n4. 난방 켠 방이나 제습기 있는 방에서 말리기\n\n너네 겨울 빨래 하루 만에 말라?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261023-03.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-01",
+    "scheduled_at": "2026-10-24T08:16:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "생활 정보",
+    "text": "겨울 되면 문고리 잡을 때마다 따끔하면 이거 해봐\n\n1. 실내 습도 40~60% 맞추기 (건조할수록 심해짐)\n2. 열쇠나 동전으로 문고리 먼저 대고 잡기\n3. 손 건조하면 더 잘 생겨서 핸드크림 자주\n4. 니트·플리스 같은 합성섬유끼리 겹쳐 입지 않기\n\n너네도 요즘 따끔한 거 시작됐어?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261024-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-02",
+    "scheduled_at": "2026-10-24T12:46:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "생활비",
+    "text": "난방비 아끼는 자취생 단계\n\n1단계: 보일러 대신 전기장판\n2단계: 수면양말 + 수면바지\n3단계: 집에서도 패딩 입음\n4단계: 카페에 오래 있다 들어옴\n\n너네는 몇 단계까지 가봤어?",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-03",
+    "scheduled_at": "2026-10-24T22:25:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "text": "온수매트 작년 그대로 꺼냈으면 켜기 전에 이거 봐\n\n1. 본체 물통 물이 탁하거나 냄새 나면 새로 갈기\n2. 물은 제품 설명서에 나온 종류·양만큼 (표시선 확인)\n3. 호스 꺾이지 않게 펴고, 매트 위에 무거운 거 올려두지 않기\n4. 접힌 자국은 펴서 쓰기\n\n제품마다 다르니까 설명서 먼저 확인해",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261024-03.png",
+    "status": "queued"
   }
 ]
