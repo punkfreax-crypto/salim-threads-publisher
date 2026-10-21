@@ -55,7 +55,8 @@
       "reply": "thReply001"
     },
     "channel_registered": true,
-    "channel_registered_note": "2026-10-20 사용자 등록 완료 통보(쿠팡 2차 인증 때문에 화면 확인은 못 함)"
+    "channel_registered_note": "2026-10-20 사용자 등록 완료 통보(쿠팡 2차 인증 때문에 화면 확인은 못 함)",
+    "registered_checked": "2026-10-21 파트너스 내 정보 화면에서 확인"
   },
   "topic_tags": [
     "자취생 집밥",
