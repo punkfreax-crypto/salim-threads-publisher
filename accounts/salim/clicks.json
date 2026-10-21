@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-21T13:46+09:00",
-  "total": 0,
+  "updated": "2026-10-21T13:56+09:00",
+  "total": 1,
   "links": {
-    "https://link.coupang.com/a/h0kKzc0xfo": 0,
+    "https://link.coupang.com/a/h0kKzc0xfo": 1,
     "https://link.coupang.com/a/h0hqTp6opM": 0,
     "https://link.coupang.com/a/h0ljWG7qhM": 0,
     "https://link.coupang.com/a/hW7wUnEBZA": 0,
@@ -17,6 +17,10 @@
     {
       "t": "2026-10-20T21:28+09:00",
       "total": 0
+    },
+    {
+      "t": "2026-10-21T13:56+09:00",
+      "total": 1
     }
   ]
 }
