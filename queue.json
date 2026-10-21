@@ -355,9 +355,12 @@
     "type": "info",
     "format": "humor",
     "scheduled_at": "2026-10-21T22:46:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "text": "자취방 청소 현실\n\n계획: 토요일 오전에 싹 대청소\n토요일 오전: 일단 누워서 청소 영상 봄\n토요일 오후: 영상 속 집이 너무 깨끗해서 의욕 상실\n일요일 밤 11시: 갑자기 욕실 줄눈까지 닦고 있음\n\n다들 청소 스위치 언제 켜져?\n이런 자취 살림 얘기 매일 올리니까 팔로우해두면 편해",
-    "topic_tag": "자취생"
+    "topic_tag": "자취생",
+    "posted_at": "2026-10-21T23:01:14.526728+09:00",
+    "post_id": "18109772477225272",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DewkvTDm8eo"
   },
   {
     "id": "20261022-01",
