@@ -387,7 +387,7 @@
   {
     "id": "20261021-04",
     "type": "ad",
-    "format": "review",
+    "format": "video",
     "scheduled_at": "2026-10-22T18:14:00+09:00",
     "status": "queued",
     "product": "진심감성 어깨뿔방지 논슬립 옷걸이 (products/7910710510, 상품평 20,354)",
@@ -395,8 +395,9 @@
     "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n👉 진심감성 어깨뿔방지 논슬립 옷걸이 (상품평 2만개+)\nhttps://link.coupang.com/a/hW7BTHxZQq\n\n옷걸이 색이 옷에 묻을 때가 있다는 후기도 있어서, 어두운 옷엔 블랙·밝은 옷엔 밝은 색으로 나눠 쓰는 사람도 있었어",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261021-04.png",
     "reply_delay_min": 90,
-    "experiment": "C-지연90분+이미지",
-    "topic_tag": "살림템 추천"
+    "experiment": "C-지연90분+영상(S20261021-01)",
+    "topic_tag": "살림템 추천",
+    "video_url": "https://raw.githubusercontent.com/punkfreax-crypto/salim-threads-publisher/main/out/S20261021-01.mp4"
   },
   {
     "id": "20261022-03",
