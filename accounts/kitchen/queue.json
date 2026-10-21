@@ -152,5 +152,63 @@
     "status": "queued",
     "topic_tag": "주방 정리",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/kitchen/20261022-03.png"
+  },
+  {
+    "id": "20261023-01",
+    "scheduled_at": "2026-10-23T07:52:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "주방 정리",
+    "text": "에어프라이어 안쪽 기름때 쌓였으면 이렇게 해봐\n\n1. 쓰고 나서 완전히 식으면 바스켓부터 분리\n2. 주방세제 푼 따뜻한 물에 담가 불리기\n3. 코팅 바스켓은 철수세미 말고 부드러운 스펀지로\n4. 열선 쪽은 전원 뽑고 식힌 다음 마른 천이나 솔로 살살\n\n종이호일 깔 때는 바스켓보다 작게, 예열할 땐 빼두기",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/kitchen/20261023-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261023-02",
+    "scheduled_at": "2026-10-23T12:27:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취생 집밥",
+    "text": "냉동실 열었는데 뭐가 들었는지 기억 안 나는 사람 나만이야?\n\n검은 봉지 안에 뭔지 모를 고기\n언제 넣었는지 모르는 밥\n\n너네는 냉동실 어떻게 관리해?",
+    "status": "queued"
+  },
+  {
+    "id": "20261023-03",
+    "scheduled_at": "2026-10-23T21:53:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "요리정보",
+    "text": "전자레인지에 이거 넣으면 위험해\n\n1. 은박지·알루미늄 호일, 금박 테두리 그릇\n2. 뚜껑 꽉 닫은 밀폐용기 (살짝 열고 돌리기)\n3. 껍질째 달걀 (터질 수 있음)\n4. 전자레인지 사용 불가 표시 있는 플라스틱 용기\n\n용기 바닥에 표시 한 번씩 확인해봐",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/kitchen/20261023-03.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-01",
+    "scheduled_at": "2026-10-24T07:54:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "주방 정리",
+    "text": "수세미에서 냄새 나기 시작했으면 바꿀 때 된 거야\n\n1. 쓰고 나면 물기 꽉 짜서 세워서 말리기\n2. 설거지용이랑 싱크대 청소용은 따로 쓰기\n3. 냄새 나거나 모양이 무너지면 바로 교체\n4. 젖은 채로 싱크대 바닥에 두지 않기\n\n너네는 수세미 얼마 만에 바꿔?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/kitchen/20261024-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-02",
+    "scheduled_at": "2026-10-24T12:29:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취생 집밥",
+    "text": "자취하면서 제일 많이 버리게 되는 식재료 뭐야?\n\n반만 쓰고 남는 양배추\n유통기한 지난 우유\n한 봉지 사면 꼭 남는 콩나물\n\n너네는 뭐 버려? 많이 나온 거 보관법 정리해볼게",
+    "status": "queued"
+  },
+  {
+    "id": "20261024-03",
+    "scheduled_at": "2026-10-24T21:56:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "주방 정리",
+    "text": "냉장고 칸마다 넣는 게 따로 있어\n\n1. 문 쪽: 여닫을 때마다 온도가 바뀌어서 소스·음료\n2. 위칸: 바로 먹을 반찬, 남은 음식\n3. 아래칸: 날고기·생선 (국물 떨어져도 다른 데 안 묻게)\n4. 채소칸: 채소·과일, 물기 닦고 넣기\n\n냉장고마다 조금 다르니까 설명서도 한 번 봐",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/kitchen/20261024-03.png",
+    "status": "queued"
   }
 ]
