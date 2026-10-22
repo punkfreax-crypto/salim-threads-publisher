@@ -437,10 +437,13 @@
     "type": "info",
     "format": "list",
     "scheduled_at": "2026-10-22T21:34:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "topic_tag": "자취 꿀팁",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261022-03.png",
-    "text": "자취방 좁다고 짐부터 버리기 전에 이거 먼저 봐\n\n1. 바닥에 내려놓은 물건이 많음\n2. 가구 높이가 제각각\n3. 수납함 색이 여러 개\n4. 창문 앞을 큰 가구가 막음\n\n같은 짐이어도 바닥이 보이면 훨씬 넓어 보여\n너네 방은 몇 번이 제일 걸려?"
+    "text": "자취방 좁다고 짐부터 버리기 전에 이거 먼저 봐\n\n1. 바닥에 내려놓은 물건이 많음\n2. 가구 높이가 제각각\n3. 수납함 색이 여러 개\n4. 창문 앞을 큰 가구가 막음\n\n같은 짐이어도 바닥이 보이면 훨씬 넓어 보여\n너네 방은 몇 번이 제일 걸려?",
+    "posted_at": "2026-10-22T21:40:28.031968+09:00",
+    "post_id": "17939570718388888",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DezASimFAEK"
   },
   {
     "id": "20261022-04",
