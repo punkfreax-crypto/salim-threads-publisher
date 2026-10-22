@@ -415,7 +415,7 @@
     "type": "ad",
     "format": "video",
     "scheduled_at": "2026-10-22T18:14:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "product": "진심감성 어깨뿔방지 논슬립 옷걸이 (products/7910710510, 상품평 20,354)",
     "text": "니트 꺼낼 때 제일 짜증나는 거\n\n어깨에 뿔처럼 튀어나온 자국\n\n논슬립 옷걸이 후기 보니까\n어깨 끝이 둥글게 떨어져서 니트 걸어도 뿔이 덜 생긴다는 말이 제일 많았어\n얇은 상의나 넥라인 넓은 옷이 안 흘러내린다는 얘기도 계속 나오고\n이사하면서 옷걸이를 한 종류로 통일했더니 옷장이 정돈돼 보인다는 후기도 여럿이더라\n\n너네 니트는 걸어? 개어? (제품은 고정 댓글에)",
     "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n👉 진심감성 어깨뿔방지 논슬립 옷걸이 (상품평 2만개+)\nhttps://link.coupang.com/a/hW7BTHxZQq\n\n옷걸이 색이 옷에 묻을 때가 있다는 후기도 있어서, 어두운 옷엔 블랙·밝은 옷엔 밝은 색으로 나눠 쓰는 사람도 있었어",
@@ -423,7 +423,12 @@
     "reply_delay_min": 90,
     "experiment": "C-지연90분+영상(S20261021-01)",
     "topic_tag": "살림템 추천",
-    "video_url": "https://raw.githubusercontent.com/punkfreax-crypto/salim-threads-publisher/main/out/S20261021-01.mp4"
+    "video_url": "https://raw.githubusercontent.com/punkfreax-crypto/salim-threads-publisher/main/out/S20261021-01.mp4",
+    "posted_at": "2026-10-22T18:18:54.785469+09:00",
+    "post_id": "17911031268590486",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DeypLl_DhVI",
+    "reply_due": "2026-10-22T19:48:54.785453+09:00",
+    "reply_pending": true
   },
   {
     "id": "20261022-03",
