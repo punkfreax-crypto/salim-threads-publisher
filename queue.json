@@ -380,7 +380,7 @@
     "type": "info",
     "format": "vote",
     "scheduled_at": "2026-10-22T12:22:00+09:00",
-    "status": "queued",
+    "status": "posted",
     "topic_tag": "살림 꿀팁",
     "poll": [
       "액체 세제",
@@ -388,7 +388,10 @@
       "가루 세제",
       "시트 세제"
     ],
-    "text": "자취러들 빨래 세제 뭐 써?\n\n투표하고 그거 쓰는 이유도 댓글로 남겨줘\n향 때문인지 편해서인지 궁금함"
+    "text": "자취러들 빨래 세제 뭐 써?\n\n투표하고 그거 쓰는 이유도 댓글로 남겨줘\n향 때문인지 편해서인지 궁금함",
+    "posted_at": "2026-10-22T12:25:24.688650+09:00",
+    "post_id": "17895934926610702",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DeyAxZpllEP"
   },
   {
     "id": "20261022-K1",
