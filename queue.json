@@ -500,8 +500,12 @@
     "reply_delay_min": 0,
     "product": "쿠팡 가전디지털 세일(쿠가세) 행사 페이지 pages.coupang.com/p/175986",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261023-K1b.png",
-    "status": "queued",
-    "note": "10/22 15시 실제 마감 기록(trends.md)으로 본문·카드 갱신"
+    "status": "posted",
+    "note": "10/22 15시 실제 마감 기록(trends.md)으로 본문·카드 갱신",
+    "posted_at": "2026-10-23T13:28:46.139351+09:00",
+    "post_id": "18011627675994710",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/De0swA_Fha8",
+    "reply_id": "18109432640246516"
   },
   {
     "id": "20261023-02",
