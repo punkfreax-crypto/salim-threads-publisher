@@ -229,5 +229,34 @@
     "text": "온수매트 작년 그대로 꺼냈으면 켜기 전에 이거 봐\n\n1. 본체 물통 물이 탁하거나 냄새 나면 새로 갈기\n2. 물은 제품 설명서에 나온 종류·양만큼 (표시선 확인)\n3. 호스 꺾이지 않게 펴고, 매트 위에 무거운 거 올려두지 않기\n4. 접힌 자국은 펴서 쓰기\n\n제품마다 다르니까 설명서 먼저 확인해",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261024-03.png",
     "status": "queued"
+  },
+  {
+    "id": "20261025-01",
+    "scheduled_at": "2026-10-25T08:17:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "생활 팁",
+    "text": "중문 없는 집인데 현관 쪽에서 찬바람 들어오면 이거 봐\n\n1. 현관문 고무패킹 들뜬 데 없는지 확인\n2. 틈 보이면 문풍지로 막기\n3. 현관 쪽 방문은 닫아두기\n4. 바닥 찬 기운은 현관 매트로 한 겹\n\n너네 집은 어디서 바람 제일 많이 들어와?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261025-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261025-02",
+    "scheduled_at": "2026-10-25T12:53:00+09:00",
+    "type": "info",
+    "format": "vote",
+    "topic_tag": "생활 정보",
+    "text": "겨울에 샤워하고 나서 욕실 문 어떻게 해?\n\n1) 바로 열어둠\n2) 닫고 환풍기 켜둠\n3) 열고 환풍기도 켬\n4) 딱히 신경 안 씀\n\n번호로 남겨줘",
+    "status": "queued"
+  },
+  {
+    "id": "20261025-03",
+    "scheduled_at": "2026-10-25T22:31:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "text": "커튼 하루 종일 열어두거나 닫아두는 사람 이렇게 해봐\n\n1. 해 들어올 때는 열어서 햇빛 들이기\n2. 해 지면 바로 닫기\n3. 길이는 창틀보다 길게\n4. 히터 앞은 커튼으로 가리지 않기\n\n돈 안 드는 겨울 준비 중에 제일 쉬운 거야",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261025-03.png",
+    "status": "queued"
   }
 ]
