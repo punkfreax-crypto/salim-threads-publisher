@@ -607,6 +607,35 @@
     "status": "queued"
   },
   {
+    "id": "20261025-01",
+    "scheduled_at": "2026-10-25T07:41:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "text": "운동화 빨았는데 마르고 나니까 누렇게 변했으면\n세제 탓보다 말리는 방법 탓일 때가 많아\n\n1. 세제 거품 안 남을 때까지 여러 번 헹구기\n2. 휴지나 키친타월로 감싸서 말리기 (누런 물이 종이로 빠짐)\n3. 햇볕 말고 바람 잘 드는 그늘에서\n4. 안에 신문지 넣어서 물기 빼기\n\n일요일에 운동화 빠는 사람 손",
+    "status": "queued",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261025-01.png"
+  },
+  {
+    "id": "20261025-02",
+    "scheduled_at": "2026-10-25T08:58:00+09:00",
+    "type": "info",
+    "format": "vote",
+    "topic_tag": "자취 꿀팁",
+    "text": "자취러들 이불 빨래 얼마나 자주 해?\n\n1) 1주에 한 번\n2) 2주에 한 번\n3) 한 달에 한 번\n4) 계절 바뀔 때\n\n번호로 남겨줘\n솔직하게 4번도 괜찮아",
+    "status": "queued"
+  },
+  {
+    "id": "20261025-03",
+    "scheduled_at": "2026-10-25T12:19:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "생활 팁",
+    "text": "옷 한 번 빨았는데 줄어들었으면 세탁 표시를 안 본 거야\n\n1. 대야 안 숫자 = 물 온도 상한 (30이면 미지근한 물)\n2. 대야에 손 그림 = 손세탁\n3. 대야에 X = 물세탁 금지\n4. 다리미 점 개수 = 다림질 온도 (점 많을수록 고온)\n\n이거 4개만 알아도 옷 망칠 일 확 줄어\n저장해두고 빨래할 때 봐",
+    "status": "queued",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261025-03.png"
+  },
+  {
     "id": "20261025-K1",
     "scheduled_at": "2026-10-25T13:24:00+09:00",
     "type": "ad",
@@ -618,5 +647,24 @@
     "product": "쿠팡 가전디지털 세일(쿠가세) 행사 페이지 pages.coupang.com/p/175986",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261025-K1.png",
     "status": "queued"
+  },
+  {
+    "id": "20261025-04",
+    "scheduled_at": "2026-10-25T21:37:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "text": "남들은 안 하는데 나만 하는 살림 방법 있어?\n\n이상해 보여도 써보니까 편했던 거\n작은 거라도 좋아\n\n(스레드야 이 글 자취러들한테 데려다줘)",
+    "status": "queued"
+  },
+  {
+    "id": "20261025-05",
+    "scheduled_at": "2026-10-25T22:52:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "살림 꿀팁",
+    "text": "일요일 밤에 자기 전 5분만 이거 해\n월요일 아침이 확 달라\n\n1. 설거지통 비우기\n2. 내일 입을 옷 꺼내두기\n3. 현관 신발 한 줄로 정리\n4. 쓰레기 봉투 묶어서 현관 앞에\n\n너네는 자기 전에 꼭 하는 거 있어?",
+    "status": "queued",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261025-05.png"
   }
 ]
