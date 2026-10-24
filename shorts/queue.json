@@ -296,8 +296,13 @@
       "모서리가 들뜨면 테이프로 잡아주래요.",
       "창문 길이부터 재고, 제품은 프로필 링크 9번. 올겨울도"
     ],
-    "status": "rendered",
+    "status": "uploaded",
     "video_path": "out/S20261025-01.mp4",
-    "duration": 16.7
+    "duration": 16.7,
+    "url": "https://youtube.com/shorts/MhOJSUaXzIE",
+    "scheduled_public": "2026-10-25T18:00+09:00",
+    "product": "탐사 국내생산 3중 단열뽁뽁이 에어캡 (products/320451654)",
+    "profile_link_no": 9,
+    "link": "https://link.coupang.com/a/h6c8JeqfoO"
   }
 ]
