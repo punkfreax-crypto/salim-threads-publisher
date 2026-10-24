@@ -270,5 +270,34 @@
     "text": "커튼 하루 종일 열어두거나 닫아두는 사람 이렇게 해봐\n\n1. 해 들어올 때는 열어서 햇빛 들이기\n2. 해 지면 바로 닫기\n3. 길이는 창틀보다 길게\n4. 히터 앞은 커튼으로 가리지 않기\n\n돈 안 드는 겨울 준비 중에 제일 쉬운 거야",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261025-03.png",
     "status": "queued"
+  },
+  {
+    "id": "20261026-01",
+    "scheduled_at": "2026-10-26T08:21:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "text": "아침마다 창문에 물방울 맺혀 있으면 그대로 두지 마\n그게 창틀 곰팡이 시작이야\n\n1. 일어나자마자 마른 걸레로 한 번 닦기\n2. 하루 2~3번, 10분씩 맞통풍\n3. 창가 가구는 벽에서 한 뼘 띄우기\n\n창틀 실리콘 까매지기 전에 하는 게 제일 쉬워",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261026-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261026-02",
+    "scheduled_at": "2026-10-26T12:52:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활비",
+    "text": "보일러 벌써 켠 사람이랑 아직 버티는 사람\n너는 어느 쪽이야?\n\n버티는 중이면 몇 도까지 참을 수 있는지도 궁금해",
+    "status": "queued"
+  },
+  {
+    "id": "20261026-03",
+    "scheduled_at": "2026-10-26T22:33:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "생활비",
+    "text": "보일러 끄고 나갈지 외출모드 켜고 나갈지 매번 헷갈리면\n집 비우는 시간 기준으로 나눠봐\n\n- 반나절 외출: 끄지 말고 온도만 조금 낮추기\n- 며칠 비울 때: 외출모드로 동파 막기\n- 돌아와서: 확 올리지 말고 평소 온도로\n\n보일러 모델마다 기능이 달라서 설명서 한 번은 확인해",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261026-03.png",
+    "status": "queued"
   }
 ]
