@@ -247,5 +247,15 @@
     "text": "쌀 포대째 베란다에 두고 먹다가 쌀벌레 본 적 있어?\n\n1. 포대 뜯으면 밀폐용기나 페트병에 옮기기\n2. 가스레인지·싱크대 옆처럼 따뜻하고 습한 곳 피하기\n3. 자취면 냉장고에 넣어두는 게 제일 편해\n4. 한 달 안에 먹을 만큼만 사기\n\n너네 쌀 어디에 둬?",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/kitchen/20261025-01.png",
     "status": "queued"
+  },
+  {
+    "id": "20261026-01",
+    "scheduled_at": "2026-10-26T21:57:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "주방 정리",
+    "text": "라면 끓이다 냄비 바닥 태웠을 때 철수세미부터 꺼내면 손해야\n\n1. 물 자작하게 붓고 베이킹소다 한두 숟갈\n2. 약불로 몇 분 끓이고 식을 때까지 그대로\n3. 나무 주걱으로 살살 긁어내기\n\n코팅 냄비면 철수세미는 아예 쓰지 마\n다들 냄비 태우면 어떻게 해?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/kitchen/20261026-01.png",
+    "status": "queued"
   }
 ]
