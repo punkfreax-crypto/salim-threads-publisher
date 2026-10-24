@@ -296,6 +296,8 @@
       "모서리가 들뜨면 테이프로 잡아주래요.",
       "창문 길이부터 재고, 제품은 프로필 링크 9번. 올겨울도"
     ],
-    "status": "queued"
+    "status": "rendered",
+    "video_path": "out/S20261025-01.mp4",
+    "duration": 16.7
   }
 ]
