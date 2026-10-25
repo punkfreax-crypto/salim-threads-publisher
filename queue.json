@@ -716,8 +716,12 @@
     "reply_text": "4. 샤워 끝나면 수전이랑 거울만 스퀴지로 한 번 쓸기 (10초면 끝)\n5. 대리석이나 코팅된 수전은 식초 말고 중성세제로 (산에 상할 수 있어)",
     "reply_delay_min": 0,
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261026-01.png",
-    "status": "queued",
-    "note": "이어쓰기"
+    "status": "posted",
+    "note": "이어쓰기",
+    "posted_at": "2026-10-26T07:56:02.091549+09:00",
+    "post_id": "17909125617581222",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/De71DeSidyP",
+    "reply_id": "18223023250342338"
   },
   {
     "id": "20261026-02",
