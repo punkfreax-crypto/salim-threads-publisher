@@ -674,8 +674,12 @@
     "reply_delay_min": 0,
     "product": "쿠팡 가전디지털 세일(쿠가세) 행사 페이지 pages.coupang.com/p/175986",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261025-K1.png",
-    "status": "queued",
-    "note": "10/24: 끝에서 두 번째 줄 답글 유도 질문 추가(G단계 갱신 때도 유지)"
+    "status": "posted",
+    "note": "10/24: 끝에서 두 번째 줄 답글 유도 질문 추가(G단계 갱신 때도 유지)",
+    "posted_at": "2026-10-25T13:29:32.083331+09:00",
+    "post_id": "17924318058428933",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/De52bopm3oJ",
+    "reply_id": "18128515351845387"
   },
   {
     "id": "20261025-04",
