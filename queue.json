@@ -788,9 +788,12 @@
     "format": "question",
     "topic_tag": "자취 꿀팁",
     "text": "자취 초반에 엄마한테 전화로 살림 물어본 거 하나씩만 풀어줘\n\n밥물 어디까지 붓는지\n빨간 옷이랑 흰 옷 같이 빨아도 되는지\n\n제일 많이 물어본 걸로",
-    "status": "queued",
+    "status": "posted",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261026-05.png",
-    "note": "카드시험(27절)"
+    "note": "카드시험(27절)",
+    "posted_at": "2026-10-26T22:54:04.946247+09:00",
+    "post_id": "18120981400952526",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/De9b4vzkXMZ"
   },
   {
     "id": "20261027-01",
