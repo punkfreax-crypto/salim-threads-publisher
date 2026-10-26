@@ -781,5 +781,50 @@
     "status": "queued",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261026-05.png",
     "note": "카드시험(27절)"
+  },
+  {
+    "id": "20261027-01",
+    "scheduled_at": "2026-10-27T07:41:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "note": "이어쓰기",
+    "reply_delay_min": 0,
+    "text": "양말 서랍 열 때마다 짝 찾느라 다 뒤집는 사람\n\n1. 짝끼리 반 접어서 돌돌 말기\n2. 서랍엔 눕히지 말고 세워서 한 줄로\n3. 칸막이 없으면 빈 휴지 상자 잘라서 칸 만들기\n\n나머지 2개는 답글에",
+    "reply_text": "4. 목 늘어난 거, 짝 잃은 거는 이번에 바로 빼기\n5. 자주 신는 건 서랍 앞쪽, 얇은 여름 양말은 뒤쪽으로\n\n너네 양말 개는 편이야, 그냥 던져 넣는 편이야?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261027-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261027-02",
+    "scheduled_at": "2026-10-27T09:58:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "note": "카드시험(27절)",
+    "text": "어제 미룬 설거지, 오늘 아침에 보니 산이 돼 있음\n\n컵 하나만 씻고 나가는 사람 나만 아니지?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261027-02.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261027-03",
+    "scheduled_at": "2026-10-27T15:52:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "생활 팁",
+    "text": "분리수거할 때마다 이거 어디에 버리지 하고 멈추는 거\n\n- 영수증: 종이처럼 보여도 일반쓰레기\n- 택배 상자: 송장이랑 테이프 떼고 접어서\n- 젤 아이스팩: 종량제 봉투로 (물 아이스팩은 물 버리고 비닐만)\n- 음식 묻은 용기: 헹궈서, 안 지워지면 일반쓰레기\n\n지역마다 기준이 조금 달라서 헷갈리면 구청 안내 한 번 봐",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261027-03.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261027-04",
+    "scheduled_at": "2026-10-27T20:27:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "note": "고백형, 카드시험(27절)",
+    "text": "청소기 돌리기 귀찮아서 미룬 최장 기록 며칠이야?\n\n솔직하게 말해도 아무도 뭐라 안 해\n\n돌돌이로 버티는 중인 사람도 손",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261027-04.png",
+    "status": "queued"
   }
 ]
