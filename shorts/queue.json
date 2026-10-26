@@ -331,6 +331,8 @@
       "얇은 옷은 힘 빼고 살살 밀래요.",
       "건전지식인지 보고, 제품은 프로필 링크 10번. 올겨울 니트도"
     ],
-    "status": "queued"
+    "status": "rendered",
+    "video_path": "out/S20261027-01.mp4",
+    "duration": 15.4
   }
 ]
