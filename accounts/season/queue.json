@@ -311,5 +311,34 @@
     "text": "보일러 끄고 나갈지 외출모드 켜고 나갈지 매번 헷갈리면\n집 비우는 시간 기준으로 나눠봐\n\n- 반나절 외출: 끄지 말고 온도만 조금 낮추기\n- 며칠 비울 때: 외출모드로 동파 막기\n- 돌아와서: 확 올리지 말고 평소 온도로\n\n보일러 모델마다 기능이 달라서 설명서 한 번은 확인해",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261026-03.png",
     "status": "queued"
+  },
+  {
+    "id": "20261027-01",
+    "scheduled_at": "2026-10-27T08:14:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "생활 팁",
+    "text": "추워서 창문 꽁꽁 닫아두는 사람 많은데 환기는 짧게 자주가 나아\n\n- 하루 2~3번, 10분 안팎\n- 창문 두 개 열어서 맞바람으로\n- 요리하고 샤워하고 나서 바로 한 번\n\n오래 열어두면 벽이랑 바닥까지 식어서 다시 데우는 데 오래 걸려",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261027-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261027-02",
+    "scheduled_at": "2026-10-27T21:16:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 정보",
+    "text": "겨울 아침에 제일 나가기 싫은 순간 언제야?\n\n이불 밖으로 발 내미는 순간\n화장실 바닥 밟는 순간\n\n너네는 어디서 제일 버티게 돼?",
+    "status": "queued"
+  },
+  {
+    "id": "20261027-03",
+    "scheduled_at": "2026-10-27T22:26:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "text": "발 시려서 잠 안 오면 이불부터 더 꺼내지 말고 이거 봐\n\n자기 전에 따뜻한 물로 발 한 번 데우고\n수면양말은 발목 안 조이는 걸로\n핫팩은 맨살에 바로 대지 말고 양말 위나 이불 속에\n\n켜두고 자는 거면 저온화상 조심",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261027-03.png",
+    "status": "queued"
   }
 ]
