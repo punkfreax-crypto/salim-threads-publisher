@@ -758,7 +758,8 @@
     "topic_tag": "살림 꿀팁",
     "text": "자취 살림, 이건 매일 안 해도 돼\n\n- 이불 개기: 아침에 걷어두기만 해도 습기 빠져\n- 설거지: 그릇 두세 개면 모았다가 저녁에 한 번\n- 바닥 청소: 머리카락 보이는 데만 돌돌이로\n\n대신 음식물 쓰레기는 그날 밖으로\n\n너는 이것만은 매일 한다 하는 거 뭐야?",
     "status": "queued",
-    "note": "안심·허락형"
+    "note": "안심·허락형 카드시험(27절)",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261026-03.png"
   },
   {
     "id": "20261026-04",
@@ -777,6 +778,8 @@
     "format": "question",
     "topic_tag": "자취 꿀팁",
     "text": "자취 초반에 엄마한테 전화로 살림 물어본 거 하나씩만 풀어줘\n\n밥물 어디까지 붓는지\n빨간 옷이랑 흰 옷 같이 빨아도 되는지\n\n제일 많이 물어본 걸로",
-    "status": "queued"
+    "status": "queued",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261026-05.png",
+    "note": "카드시험(27절)"
   }
 ]
