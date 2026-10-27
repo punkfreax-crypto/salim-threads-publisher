@@ -837,8 +837,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/27: 스카치브라이트 리필 products/8253502320, 퍼실 products/9471905450 (11:02 확인)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261027-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 28 낮 골드박스"
+    "status": "posted",
+    "note": "PLAYBOOK 28 낮 골드박스",
+    "posted_at": "2026-10-27T13:35:20.881913+09:00",
+    "post_id": "18014443193988101",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/De_Arz5gK7H",
+    "reply_id": "17892099123456229"
   },
   {
     "id": "20261027-03",
