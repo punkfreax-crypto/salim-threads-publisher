@@ -339,8 +339,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/27: JMW products/3675802, 지오리스 products/8938627601 (11:02 확인)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261027-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 28 계절 첫 특가 글"
+    "status": "posted",
+    "note": "PLAYBOOK 28 계절 첫 특가 글",
+    "posted_at": "2026-10-27T12:54:22.788675+09:00",
+    "post_id": "18117254120467094",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/De-7_mrAGiF",
+    "reply_id": "18171775588490317"
   },
   {
     "id": "20261027-02",
