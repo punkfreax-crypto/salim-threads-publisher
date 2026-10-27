@@ -860,5 +860,50 @@
     "text": "청소기 돌리기 귀찮아서 미룬 최장 기록 며칠이야?\n\n솔직하게 말해도 아무도 뭐라 안 해\n\n돌돌이로 버티는 중인 사람도 손",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261027-04.png",
     "status": "queued"
+  },
+  {
+    "id": "20261028-01",
+    "scheduled_at": "2026-10-28T07:44:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "note": "이어쓰기",
+    "reply_delay_min": 0,
+    "text": "세탁기 고무패킹에 검은 점 생기면 그때부터는 잘 안 지워져\n\n1. 빨래 끝나면 문 열어두기\n2. 고무패킹 사이 물기는 마른 천으로 한 번 닦기\n3. 세제 투입구 빼서 물로 헹구기\n\n나머지 2개는 답글에",
+    "reply_text": "4. 한 달에 한 번은 세탁조 클리너 넣고 통세척 코스\n5. 이미 낀 곰팡이는 락스 희석액 적신 키친타월 감아뒀다가 헹구기 (장갑 끼고 환기, 다른 세제랑 섞지 말기)\n\n너네 세탁기 문 열어두는 편이야?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261028-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261028-02",
+    "scheduled_at": "2026-10-28T09:53:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "note": "짧은 글, 카드시험(27절)",
+    "text": "주말에 청소하려고 했는데 주말이 끝남",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261028-02.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261028-03",
+    "scheduled_at": "2026-10-28T15:49:00+09:00",
+    "type": "info",
+    "format": "list",
+    "topic_tag": "생활 팁",
+    "text": "매일 쓰는데 언제 바꾸고 언제 빠는지 모르는 것들\n\n- 칫솔: 3개월에 한 번, 털 벌어지면 더 빨리\n- 베개 커버: 일주일에 한 번\n- 욕실 발매트: 일주일에 한 번\n- 이불 커버: 1~2주에 한 번\n\n딱 맞출 필요는 없고 대략 이 정도만 기억해도 돼",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261028-03.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261028-04",
+    "scheduled_at": "2026-10-28T20:24:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "note": "고백형, 카드시험(27절)",
+    "text": "사놓고 서랍에서 잠든 살림템 하나씩 고백하자\n\n한 번 쓰고 끝난 거\n포장도 안 뜯은 거\n\n다들 하나쯤 있잖아",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261028-04.png",
+    "status": "queued"
   }
 ]
