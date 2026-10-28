@@ -950,5 +950,48 @@
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261028-K2.png",
     "status": "queued",
     "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)"
+  },
+  {
+    "id": "20261029-01",
+    "scheduled_at": "2026-10-29T07:48:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "note": "이어쓰기",
+    "reply_delay_min": 0,
+    "text": "장롱에서 겨울 이불 꺼냈으면 바로 덮지 말고 이것부터\n\n1. 베란다나 창가에서 반나절 펼쳐두기\n2. 압축팩에 있던 거면 비닐 냄새 빠질 때까지 환기\n3. 세탁 라벨 보고 물세탁 되는지 먼저 확인\n\n나머지 2개는 답글에",
+    "reply_text": "4. 커버는 이불이랑 따로 먼저 빨아서 씌우기\n5. 넣어둘 여름 이불은 완전히 말린 다음에 보관\n\n겨울 이불 벌써 꺼낸 사람?",
+    "status": "queued",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-01.png"
+  },
+  {
+    "id": "20261029-02",
+    "scheduled_at": "2026-10-29T10:03:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 팁",
+    "text": "아침마다 이불 각 잡아서 개는 거, 안 해도 돼\n\n자고 일어난 이불엔 땀이랑 습기가 남아 있어서\n바로 개는 것보다 잠깐 펼쳐두는 게 낫다는 얘기도 많아\n\n너네는 이불 개고 나가는 편이야, 그냥 두는 편이야?",
+    "status": "queued",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-02.png"
+  },
+  {
+    "id": "20261029-03",
+    "scheduled_at": "2026-10-29T15:52:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취 꿀팁",
+    "text": "휴지 사러 마트 갔는데 휴지 빼고 다 사 옴",
+    "status": "queued",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-03.png"
+  },
+  {
+    "id": "20261029-04",
+    "scheduled_at": "2026-10-29T20:31:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "살림 꿀팁",
+    "text": "빨래 건조대에서 바로 걷어 입고 나간 적 있는 사람\n\n개서 넣었다가 다시 꺼내는 게 더 비효율 아니냐는 쪽이랑\n그래도 옷장엔 넣어야 한다는 쪽이 있던데\n\n솔직하게 손 들어봐",
+    "status": "queued",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-04.png"
   }
 ]
