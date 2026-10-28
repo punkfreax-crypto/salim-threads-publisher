@@ -365,6 +365,8 @@
       "백 그램이라 패딩 주머니에 쏙 들어간대요.",
       "맨살엔 오래 대지 말고, 제품은 프로필 링크 11번. 내일 아침도"
     ],
-    "status": "queued"
+    "status": "rendered",
+    "video_path": "out/S20261029-01.mp4",
+    "duration": 18.1
   }
 ]
