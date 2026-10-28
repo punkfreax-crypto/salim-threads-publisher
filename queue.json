@@ -958,8 +958,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/28: 고릴라랩 products/7549652625, 위프 products/9394666815 (12:00 확인, 18:59 남음)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261028-K2b.png",
-    "status": "queued",
-    "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약) / 21시 확인: 뚱시트 골드박스 목록에서 빠짐 → 본문·카드 K2b 갱신, 뚱시트 링크 제거"
+    "status": "posted",
+    "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약) / 21시 확인: 뚱시트 골드박스 목록에서 빠짐 → 본문·카드 K2b 갱신, 뚱시트 링크 제거",
+    "posted_at": "2026-10-28T22:22:13.112628+09:00",
+    "post_id": "17974474425153921",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfChxgUFqFV",
+    "reply_id": "18147045385580316"
   },
   {
     "id": "20261029-01",
