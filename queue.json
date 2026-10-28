@@ -913,8 +913,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/28: 고릴라랩 products/7549652625, 알텐바흐 products/5391887777 (10:37 확인, 20:22 남음)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261028-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 28 낮 골드박스"
+    "status": "posted",
+    "note": "PLAYBOOK 28 낮 골드박스",
+    "posted_at": "2026-10-28T13:26:35.799607+09:00",
+    "post_id": "18036726017894883",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfBkd1ODXWk",
+    "reply_id": "18107038199308143"
   },
   {
     "id": "20261028-03",
