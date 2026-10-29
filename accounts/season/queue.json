@@ -452,5 +452,34 @@
     "topic_tag": "생활 정보",
     "text": "패딩 꺼냈더니 주머니에서 작년 겨울 영수증이랑 마스크 나옴\n\n타임캡슐인 줄",
     "status": "queued"
+  },
+  {
+    "id": "20261030-01",
+    "scheduled_at": "2026-10-30T08:13:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "text": "현관 쪽이 유난히 썰렁하면 어디서 바람 드는지부터 봐\n\n1. 현관문 아래 틈에 손등 대보기\n2. 문 테두리 고무패킹 닳거나 떨어졌는지\n3. 우편함·도어 구멍으로 바람 드는지\n4. 신발장 옆 벽 틈도 같이\n\n바람 드는 곳 찾으면 거기만 막아도 달라져",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261030-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261030-02",
+    "scheduled_at": "2026-10-30T21:14:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 정보",
+    "note": "공감형",
+    "text": "겨울에 집에서 양말 신고 있는 파야, 끝까지 맨발 파야?\n\n난 이불 밖으로 발 나오는 순간 양말 찾게 되더라",
+    "status": "queued"
+  },
+  {
+    "id": "20261030-03",
+    "scheduled_at": "2026-10-30T22:26:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "생활 정보",
+    "text": "전기장판 켜고 딱 누웠는데 리모컨이 저 멀리 있음\n\n오늘 불은 그냥 켜놓고 잔다",
+    "status": "queued"
   }
 ]
