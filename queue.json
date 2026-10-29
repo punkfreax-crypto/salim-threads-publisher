@@ -996,6 +996,20 @@
     "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfDyigeFG1k"
   },
   {
+    "id": "20261029-K1",
+    "scheduled_at": "2026-10-29T13:14:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "살림템 추천",
+    "text": "어제 뚱시트는 밤 9시 전에 목록에서 빠졌는데 오늘 골드박스엔 휴지 30롤이 48% 빠져 있더라\n\n- 깨끗한나라 순수 프리미엄 3겹 30m 30롤 48% 할인 16,920원\n- G7 퓨어블랙 원두커피믹스 200개입 32% 할인 28,940원\n\n오전 10시 35분 기준 가격이고, 휴지는 벌써 30% 팔렸다고 떠 있어\n골드박스는 내일 아침 7시에 바뀌어\n휴지 한 번에 몇 롤씩 쟁여둬? 댓글로 알려줘\n상품 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n깨끗한나라 3겹 30m 30롤 (48%)\nhttps://link.coupang.com/a/ietHIghR8K\n\nG7 원두커피믹스 200개입 (32%)\nhttps://link.coupang.com/a/ietH5lSLNk\n\n오늘 골드박스 전체\nhttps://link.coupang.com/a/ibbR110exo",
+    "reply_delay_min": 0,
+    "product": "골드박스 10/29: 깨끗한나라 products/8261290138, G7 products/8548534914 (10:35 확인, 20:24 남음)",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-K1.png",
+    "status": "queued",
+    "note": "PLAYBOOK 28 낮 골드박스"
+  },
+  {
     "id": "20261029-03",
     "scheduled_at": "2026-10-29T15:52:00+09:00",
     "type": "info",
@@ -1014,5 +1028,19 @@
     "text": "빨래 건조대에서 바로 걷어 입고 나간 적 있는 사람\n\n개서 넣었다가 다시 꺼내는 게 더 비효율 아니냐는 쪽이랑\n그래도 옷장엔 넣어야 한다는 쪽이 있던데\n\n솔직하게 손 들어봐",
     "status": "queued",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-04.png"
+  },
+  {
+    "id": "20261029-K2",
+    "scheduled_at": "2026-10-29T22:08:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "살림템 추천",
+    "text": "오늘 골드박스 휴지, 내일 아침 7시에 끝나\n\n- 깨끗한나라 3겹 30m 30롤: 오전 10시 35분 기준 30% 판매됨, 16,920원(48%)\n- G7 원두커피믹스 200개입: 같은 시각 28% 판매됨, 28,940원(32%)\n\n가격이랑 남은 수량은 그사이 바뀔 수 있어\n집에 커피는 믹스파야 원두파야? 댓글로 알려줘\n휴지 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n깨끗한나라 3겹 30m 30롤 (48%)\nhttps://link.coupang.com/a/ietHIghR8K\n\nG7 원두커피믹스 200개입 (32%)\nhttps://link.coupang.com/a/ietH5lSLNk\n\n오늘 골드박스 전체\nhttps://link.coupang.com/a/ibbR110exo",
+    "reply_delay_min": 0,
+    "product": "골드박스 10/29: 깨끗한나라 products/8261290138, G7 products/8548534914 (10:35 확인, 20:24 남음)",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-K2.png",
+    "status": "queued",
+    "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)"
   }
 ]
