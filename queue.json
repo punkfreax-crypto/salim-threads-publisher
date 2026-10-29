@@ -1006,8 +1006,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/29: 깨끗한나라 products/8261290138, G7 products/8548534914 (10:35 확인, 20:24 남음)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 28 낮 골드박스"
+    "status": "posted",
+    "note": "PLAYBOOK 28 낮 골드박스",
+    "posted_at": "2026-10-29T13:20:20.514540+09:00",
+    "post_id": "18150734437612487",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfEIjnBmyHn",
+    "reply_id": "18091794488240846"
   },
   {
     "id": "20261029-03",
