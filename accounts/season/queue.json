@@ -432,8 +432,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/29: 에어룸 products/8403756151 (10:35 확인, 90% 판매)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261029-K1.png",
-    "status": "queued",
-    "note": "계절 특가 글(10/27~ 하루 1개)"
+    "status": "posted",
+    "note": "계절 특가 글(10/27~ 하루 1개)",
+    "posted_at": "2026-10-29T12:49:24.531476+09:00",
+    "post_id": "18023635661926909",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfEFBHym1ZW",
+    "reply_id": "18177959386456665"
   },
   {
     "id": "20261029-02",
