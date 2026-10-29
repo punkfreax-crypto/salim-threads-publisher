@@ -1020,8 +1020,11 @@
     "format": "humor",
     "topic_tag": "자취 꿀팁",
     "text": "휴지 사러 마트 갔는데 휴지 빼고 다 사 옴",
-    "status": "queued",
-    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-03.png"
+    "status": "posted",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261029-03.png",
+    "posted_at": "2026-10-29T16:01:29.795040+09:00",
+    "post_id": "17892477120455610",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfEbD8eGwVj"
   },
   {
     "id": "20261029-04",
