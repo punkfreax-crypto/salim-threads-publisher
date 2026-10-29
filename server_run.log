@@ -1,7 +1,3 @@
-9일차 / 단계 '확장 1' / 이번 실행 발행 1건 / 오늘 누적 2건
-=== [kitchen] 2026-10-21 12:24:51
-토큰 사용 2일째, 갱신 불필요
-실패: 20261021-02 HTTP 400: {"error":{"message":"Invalid parameter","type":"OAuthException","code":100,"error_subcode":4279063,"is_transient":false,"error_user_title":"Poll Option Has Invalid Length","error_user_msg":"Options for poll attachments must have between 1 and 25 characters, inclusive.","fbtrace_id":"AWloCI8GUa5uGol0mFeBseM"}}
 3일차 / 단계 '워밍업(2주, 링크 없음)' / 이번 실행 발행 0건 / 오늘 누적 1건
 === [season] 2026-10-21 12:55:03
 토큰 사용 2일째, 갱신 불필요
@@ -398,3 +394,7 @@
 토큰 사용 10일째, 갱신 불필요
 발행: 20261029-03 (info) https://www.threads.com/@season.ggultem.note/post/DfFHElxm1-5
 11일차 / 단계 '특가 글 시작(10/27~, 하루 1개)' / 이번 실행 발행 1건 / 오늘 누적 4건
+=== [salim] 2026-10-30 07:49:23
+토큰 사용 16일째, 갱신 불필요
+발행: 20261030-01 (info) https://www.threads.com/@salim.ggultem.note/post/DfGHd7HgbWE
+18일차 / 단계 '유지(6개 상한)' / 이번 실행 발행 1건 / 오늘 누적 1건
