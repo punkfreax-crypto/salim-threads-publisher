@@ -311,5 +311,15 @@
     "reply_text": "",
     "status": "queued",
     "note": "공감·고백 humor, 글자만"
+  },
+  {
+    "id": "20261031-01",
+    "scheduled_at": "2026-10-31T21:52:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "주방 정리",
+    "text": "냉장고 문 칸 정리하다가 언제 샀는지 기억 안 나는 소스 나온 적 있지\n\n뚜껑 열어보기 무서워서 다시 넣어둔 것도 하나쯤 있고\n\n너네 냉장고 제일 오래된 소스는 뭐야? 솔직하게",
+    "status": "queued",
+    "note": "고백형 question, 글자만"
   }
 ]
