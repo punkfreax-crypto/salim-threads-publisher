@@ -1089,6 +1089,20 @@
     "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfGWl9UjetA"
   },
   {
+    "id": "20261030-K1",
+    "scheduled_at": "2026-10-30T13:12:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "살림템 추천",
+    "text": "어제 골드박스 휴지는 밤 9시에 84%까지 팔렸더라. 오늘은 빨래건조대랑 지퍼백이 올라왔어\n\n- 락앤락 튼튼한 빨래건조대(블랙) 30% 할인 31,490원\n- 덴라이프 슬라이딩 지퍼백 4종 65매 48% 할인 11,780원\n\n오전 10시 기준 가격이고, 건조대는 벌써 46% 팔렸다고 떠 있어\n골드박스는 내일 아침 7시에 바뀌어\n지금 쓰는 건조대 몇 년째야? 댓글로 알려줘\n상품 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n락앤락 튼튼한 빨래건조대 (30%)\nhttps://link.coupang.com/a/if6da60ny8\n\n덴라이프 슬라이딩 지퍼백 65매 (48%)\nhttps://link.coupang.com/a/if6dqrGwCq\n\n오늘 골드박스 전체\nhttps://link.coupang.com/a/ibbR110exo",
+    "reply_delay_min": 0,
+    "product": "골드박스 10/30: 락앤락 products/8574506645, 덴라이프 products/7534848748 (10:02 확인)",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261030-K1.png",
+    "status": "queued",
+    "note": "PLAYBOOK 28 낮 골드박스"
+  },
+  {
     "id": "20261030-03",
     "scheduled_at": "2026-10-30T15:49:00+09:00",
     "type": "info",
@@ -1109,5 +1123,19 @@
     "text": "다 쓴 샴푸통에 물 넣어서 일주일 더 쓴 적 있는 사람\n\n거꾸로 세워두기까지 했으면 인정\n\n물 넣는 거 몇 번까지 해봤어?",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261030-04.png",
     "status": "queued"
+  },
+  {
+    "id": "20261030-K2",
+    "scheduled_at": "2026-10-30T22:11:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "살림템 추천",
+    "text": "오늘 골드박스 빨래건조대, 내일 아침 7시에 끝나\n\n- 락앤락 튼튼한 빨래건조대: 오전 10시 기준 46% 판매됨, 31,490원(30%)\n- 덴라이프 지퍼백 4종 65매: 11,780원(48%)\n\n가격이랑 남은 수량은 그사이 바뀔 수 있어\n지퍼백은 냉동실용이야 정리용이야? 댓글로 알려줘\n링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n락앤락 튼튼한 빨래건조대 (30%)\nhttps://link.coupang.com/a/if6da60ny8\n\n덴라이프 슬라이딩 지퍼백 65매 (48%)\nhttps://link.coupang.com/a/if6dqrGwCq\n\n오늘 골드박스 전체\nhttps://link.coupang.com/a/ibbR110exo",
+    "reply_delay_min": 0,
+    "product": "골드박스 10/30: 락앤락 products/8574506645, 덴라이프 products/7534848748 (10:02 확인)",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261030-K2.png",
+    "status": "queued",
+    "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)"
   }
 ]
