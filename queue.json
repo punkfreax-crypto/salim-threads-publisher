@@ -1137,5 +1137,51 @@
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261030-K2.png",
     "status": "queued",
     "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)"
+  },
+  {
+    "id": "20261031-01",
+    "scheduled_at": "2026-10-31T07:44:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "note": "이어쓰기",
+    "reply_delay_min": 0,
+    "text": "주말에 신발장 문 열었다가 냄새에 한 발 물러선 사람\n\n방향제 사기 전에 이것부터\n\n1. 신은 신발은 하루 밖에서 말리고 넣기\n2. 젖은 신발은 신문지 넣어서 말리기\n3. 신발장 문 가끔 열어두기\n\n나머지 2개는 답글에",
+    "reply_text": "4. 바닥 칸 모래·먼지 털고 마른걸레로 닦기\n5. 안 신는 신발 빼서 칸 사이 비워두기\n\n신발장 마지막으로 닦은 게 언제였어?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261031-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261031-02",
+    "scheduled_at": "2026-10-31T10:03:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 팁",
+    "note": "허락형, 카드시험(27절)",
+    "text": "주말 대청소, 하루에 다 몰아서 안 해도 돼\n\n이번 주는 욕실만, 다음 주는 냉장고 한 칸만\n한 군데만 해도 그 주는 성공이야\n\n이번 주말엔 어디 하나 고를래?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261031-02.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261031-03",
+    "scheduled_at": "2026-10-31T15:52:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "note": "짧은 글, 카드시험(27절)",
+    "text": "청소하려고 정리 영상 틀었는데 3편째 보는 중\n\n오늘도 보기만 함",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261031-03.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261031-04",
+    "scheduled_at": "2026-10-31T20:31:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "note": "고백형, 카드시험(27절)",
+    "text": "이불 빨고 나서 커버 씌우기 귀찮아서 그냥 덮고 잔 적 있는 사람\n\n속통만 덮었는지 커버만 덮었는지도 말해줘\n\n커버 쉽게 씌우는 요령 있으면 나도 좀 알려줘",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261031-04.png",
+    "status": "queued"
   }
 ]
