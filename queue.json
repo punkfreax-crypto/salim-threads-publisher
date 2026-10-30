@@ -1145,8 +1145,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/30: 락앤락 products/8574506645, 덴라이프 products/7534848748 (10:02 확인) / 21:02 재확인: 건조대 골드박스 빠짐 39,490원, 지퍼백 11,780원",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261030-K2b.png",
-    "status": "queued",
-    "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)"
+    "status": "posted",
+    "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)",
+    "posted_at": "2026-10-30T22:19:22.579821+09:00",
+    "post_id": "18105254429325407",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfHrBvHIfEi",
+    "reply_id": "18501026860096084"
   },
   {
     "id": "20261031-01",
