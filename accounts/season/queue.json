@@ -508,5 +508,35 @@
     "topic_tag": "생활 정보",
     "text": "전기장판 켜고 딱 누웠는데 리모컨이 저 멀리 있음\n\n오늘 불은 그냥 켜놓고 잔다",
     "status": "queued"
+  },
+  {
+    "id": "20261031-01",
+    "scheduled_at": "2026-10-31T08:16:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "text": "자고 일어나면 목이 칼칼한 계절 시작됐으면 방 공기부터 봐\n\n1. 자기 전에 젖은 수건 하나 방에 널기\n2. 난방 온도 너무 높이지 않기\n3. 머리맡에 물 한 컵\n4. 가습기 쓰면 물은 매일 갈기\n\n칼칼한 게 오래가면 병원 가보는 게 먼저야",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261031-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261031-02",
+    "scheduled_at": "2026-10-31T21:13:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 정보",
+    "note": "공감형",
+    "text": "겨울 되면 제일 먼저 꺼내는 물건 뭐야?\n\n난 극세사 담요부터 소파에 깔아둬",
+    "status": "queued"
+  },
+  {
+    "id": "20261031-03",
+    "scheduled_at": "2026-10-31T22:24:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "생활 정보",
+    "note": "짧은 글",
+    "text": "택배 문 앞에 왔다는데 나가기 추워서 10분째 고민 중\n\n결국 문만 빼꼼 열고 손만 내밀 예정",
+    "status": "queued"
   }
 ]
