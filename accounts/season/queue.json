@@ -487,8 +487,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/30: 클래파 products/4548468621 (10:02 확인, 30% 판매)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261030-K1.png",
-    "status": "queued",
-    "note": "계절 특가 글(10/27~ 하루 1개)"
+    "status": "posted",
+    "note": "계절 특가 글(10/27~ 하루 1개)",
+    "posted_at": "2026-10-30T12:53:09.380013+09:00",
+    "post_id": "18200709499377430",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfGqPU9DbfA",
+    "reply_id": "18138839074640110"
   },
   {
     "id": "20261030-02",
