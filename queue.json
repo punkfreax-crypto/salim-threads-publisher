@@ -1099,8 +1099,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/30: 락앤락 products/8574506645, 덴라이프 products/7534848748 (10:02 확인)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261030-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 28 낮 골드박스"
+    "status": "posted",
+    "note": "PLAYBOOK 28 낮 골드박스",
+    "posted_at": "2026-10-30T13:14:05.853382+09:00",
+    "post_id": "18037448147906341",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfGsoiCDRXh",
+    "reply_id": "18103734500562755"
   },
   {
     "id": "20261030-03",
