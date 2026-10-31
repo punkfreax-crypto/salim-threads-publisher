@@ -1184,6 +1184,20 @@
     "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfI7t2VFLLq"
   },
   {
+    "id": "20261031-K1",
+    "scheduled_at": "2026-10-31T14:24:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "살림템 추천",
+    "text": "어제 빨래건조대는 밤 9시엔 골드박스에서 빠져 있었어. 오늘은 세제랑 생수가 올라왔더라\n\n- 리큐 진한겔 드럼겸용 액상세제 리필 2.1L 6개 75% 할인 19,070원\n- 평창수 무라벨 생수 500ml 40개 59% 할인 6,470원\n\n오후 2시 기준 가격이고, 생수는 벌써 71% 팔렸다고 떠 있어\n골드박스는 내일 아침 7시에 바뀌어\n세제 리필은 한 번에 몇 개씩 사둬? 댓글로 알려줘\n상품 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n리큐 진한겔 액상세제 리필 2.1L×6 (75%)\nhttps://link.coupang.com/a/ih18mou7pY\n\n평창수 무라벨 500ml×40 (59%)\nhttps://link.coupang.com/a/ih18w1Gpps\n\n오늘 골드박스 전체\nhttps://link.coupang.com/a/ibbR110exo",
+    "reply_delay_min": 0,
+    "product": "골드박스 10/31: 리큐 products/6746052927, 평창수 products/8157269016 (14:03 확인, 생수 71% 판매)",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261031-K1.png",
+    "status": "queued",
+    "note": "PLAYBOOK 28 낮 골드박스"
+  },
+  {
     "id": "20261031-03",
     "scheduled_at": "2026-10-31T15:52:00+09:00",
     "type": "info",
@@ -1204,5 +1218,19 @@
     "text": "이불 빨고 나서 커버 씌우기 귀찮아서 그냥 덮고 잔 적 있는 사람\n\n속통만 덮었는지 커버만 덮었는지도 말해줘\n\n커버 쉽게 씌우는 요령 있으면 나도 좀 알려줘",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261031-04.png",
     "status": "queued"
+  },
+  {
+    "id": "20261031-K2",
+    "scheduled_at": "2026-10-31T22:08:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "살림템 추천",
+    "text": "오늘 골드박스 생수, 오후 2시에 이미 71% 팔렸었어\n\n- 평창수 무라벨 500ml 40개 6,470원(59%)\n- 리큐 진한겔 액상세제 리필 2.1L 6개 19,070원(75%)\n\n둘 다 오후 2시 기준 가격이야\n골드박스는 내일 아침 7시에 끝나\n그사이 가격이 바뀌거나 먼저 빠질 수 있어\n물은 생수로 시켜 먹어 아니면 정수기야? 댓글로 알려줘\n링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n평창수 무라벨 500ml×40 (59%)\nhttps://link.coupang.com/a/ih18w1Gpps\n\n리큐 진한겔 액상세제 리필 2.1L×6 (75%)\nhttps://link.coupang.com/a/ih18mou7pY\n\n오늘 골드박스 전체\nhttps://link.coupang.com/a/ibbR110exo",
+    "reply_delay_min": 0,
+    "product": "골드박스 10/31: 리큐 products/6746052927, 평창수 products/8157269016 (14:03 확인, 생수 71% 판매)",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261031-K2.png",
+    "status": "queued",
+    "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)"
   }
 ]
