@@ -1240,8 +1240,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/31: 리큐 products/6746052927, 평창수 products/8157269016 (14:03 확인, 생수 71% 판매)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261031-K2.png",
-    "status": "queued",
-    "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)"
+    "status": "posted",
+    "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)",
+    "posted_at": "2026-10-31T22:11:31.638137+09:00",
+    "post_id": "18212266933364093",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfKO7zskds5",
+    "reply_id": "17960002548266177"
   },
   {
     "id": "20261101-01",
