@@ -543,8 +543,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 10/31: 세타필 products/9303936790 (14:03 확인, 29% 판매)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261031-K1.png",
-    "status": "queued",
-    "note": "계절 특가 글(10/27~ 하루 1개)"
+    "status": "posted",
+    "note": "계절 특가 글(10/27~ 하루 1개)",
+    "posted_at": "2026-10-31T15:17:13.039610+09:00",
+    "post_id": "18117319664321982",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfJfhovlinL",
+    "reply_id": "18389545075229407"
   },
   {
     "id": "20261031-02",
