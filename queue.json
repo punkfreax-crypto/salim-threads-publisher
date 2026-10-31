@@ -1236,5 +1236,51 @@
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261031-K2.png",
     "status": "queued",
     "note": "PLAYBOOK 29 밤 마감 글(낮에 미리 예약)"
+  },
+  {
+    "id": "20261101-01",
+    "scheduled_at": "2026-11-01T07:47:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "note": "이어쓰기",
+    "reply_delay_min": 0,
+    "text": "창틀 닦는다고 물티슈부터 들었다가 시커먼 진흙 만든 사람\n\n순서만 바꾸면 훨씬 덜 번져\n\n1. 마른 붓으로 먼지 먼저 쓸어내기\n2. 레일 홈은 나무젓가락에 키친타월 감아서\n3. 물티슈·젖은 걸레는 맨 마지막에\n\n나머지 2개는 답글에",
+    "reply_text": "4. 창틀 아래 물빠짐 구멍 막혔는지 같이 보기\n5. 다 닦으면 창문 잠깐 열어서 말리기\n\n창틀 청소는 1년에 몇 번 해?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261101-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261101-02",
+    "scheduled_at": "2026-11-01T10:06:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 팁",
+    "note": "허락형, 카드시험(27절)",
+    "text": "집 정리, 버리기를 한 번에 다 안 해도 돼\n\n오늘은 지갑 속 영수증 한 장\n안 나오는 볼펜 하나\n그것만 버려도 오늘 치 정리는 끝\n\n오늘 하나만 버린다면 뭐 버릴래?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261101-02.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261101-03",
+    "scheduled_at": "2026-11-01T15:55:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "note": "짧은 글, 카드시험(27절)",
+    "text": "청소기 돌리려고 바닥에 있는 거 치우다가 지쳐서\n\n청소기는 내일 돌리기로 함",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261101-03.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261101-04",
+    "scheduled_at": "2026-11-01T21:34:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "살림템 추천",
+    "note": "H 와우 예고 글(링크 없음), 카드시험. 11/1 15시 실행에서 행사 기간 다르면 수정",
+    "text": "내일 아침 7시부터 쿠팡 와우멤버스데이 시작이래\n\n쿠팡 판매자 공지 기준으로 11월 9일 아침까지야\n생필품 위주로 보고 괜찮은 거 있으면 정리해서 올릴게\n\n이번엔 뭐 사려고 기다렸어?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261101-04.png",
+    "status": "queued"
   }
 ]
