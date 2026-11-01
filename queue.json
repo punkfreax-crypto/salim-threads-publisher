@@ -1276,6 +1276,20 @@
     "status": "queued"
   },
   {
+    "id": "20261101-K1",
+    "scheduled_at": "2026-11-01T13:18:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "살림템 추천",
+    "text": "어제 세제 리필 글 올렸는데 오늘 골드박스엔 실내건조 세제가 떴어. 겨울 빨래 쉰내 걱정되는 집은 볼 만해\n\n- 액츠 퍼펙트 실내건조 액상세제 3.2L 55% 할인 7,950원\n- 하늬홈 냉동밥 용기 320ml 10개 37% 할인 19,850원\n\n오전 9시 기준 가격이고, 냉동밥 용기는 그때 벌써 70% 팔렸다고 떠 있었어\n골드박스는 내일 아침 7시에 바뀌어\n밥 한 번에 몇 공기씩 얼려둬? 댓글로 알려줘\n상품 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n액츠 실내건조 액상세제 3.2L (55%)\nhttps://link.coupang.com/a/ijl5KD9ap2\n\n하늬홈 냉동밥 용기 320ml×10 (37%)\nhttps://link.coupang.com/a/ijl5YnpaDI\n\n오늘 골드박스 전체\nhttps://link.coupang.com/a/ibbR110exo",
+    "reply_delay_min": 0,
+    "product": "골드박스 11/1: 액츠 products/9711973763, 하늬홈 products/9743071260 (09:07 확인, 용기 70% 판매)",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261101-K1.png",
+    "status": "queued",
+    "note": "PLAYBOOK 28 낮 골드박스"
+  },
+  {
     "id": "20261101-03",
     "scheduled_at": "2026-11-01T15:55:00+09:00",
     "type": "info",
