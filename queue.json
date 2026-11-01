@@ -1310,5 +1310,49 @@
     "text": "내일 아침 7시부터 쿠팡 와우멤버스데이 시작이래\n\n쿠팡 판매자 공지 기준으로 11월 9일 아침까지야\n생필품 위주로 보고 괜찮은 거 있으면 정리해서 올릴게\n\n이번엔 뭐 사려고 기다렸어?",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261101-04.png",
     "status": "queued"
+  },
+  {
+    "id": "20261102-01",
+    "scheduled_at": "2026-11-02T07:45:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "note": "",
+    "text": "샤워하고 나면 거울에 하얀 물자국 남는 사람\n\n세제 사기 전에 이것부터\n\n1. 샤워 끝나고 스퀴지로 위에서 아래로 한 번\n2. 가장자리는 마른 천으로 물기만 훔치기\n3. 하얗게 굳은 자국은 식초 탄 물 뿌리고 몇 분 뒤 닦기\n\n매일 한 번만 해도 주말 욕실 청소가 확 줄어",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261102-01.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261102-02",
+    "scheduled_at": "2026-11-02T10:04:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 팁",
+    "note": "허락형, 카드",
+    "text": "월요일 아침 침대 정리, 다 안 해도 돼\n\n베개 각 안 맞춰도 되고\n이불만 한 번 쫙 펴두면 끝\n저녁에 들어왔을 때 그것만으로도 덜 지쳐\n\n너는 아침에 침대 정리하고 나가는 편이야?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261102-02.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261102-03",
+    "scheduled_at": "2026-11-02T15:53:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "note": "짧은 글, 카드",
+    "text": "분리수거 날 내놓으려고 현관에 쌓아둔 택배 박스\n\n일주일째라 이제 가구처럼 보임",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261102-03.png",
+    "status": "queued"
+  },
+  {
+    "id": "20261102-04",
+    "scheduled_at": "2026-11-02T20:29:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "note": "고백형, 카드",
+    "text": "냉장고 반찬통 열어보기 무서워서 그냥 닫은 적 있는 사람\n\n뚜껑 색만 보고 뭐였는지 기억해내는 중이면 인정\n\n너네 냉장고 제일 안쪽엔 뭐가 있어?",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261102-04.png",
+    "status": "queued"
   }
 ]
