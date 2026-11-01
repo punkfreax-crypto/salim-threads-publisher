@@ -1289,8 +1289,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 11/1: 액츠 products/9711973763, 하늬홈 products/9743071260 (09:07 확인, 용기 70% 판매)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261101-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 28 낮 골드박스"
+    "status": "posted",
+    "note": "PLAYBOOK 28 낮 골드박스",
+    "posted_at": "2026-11-01T13:19:20.608078+09:00",
+    "post_id": "18119979548062752",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfL201_jVHB",
+    "reply_id": "18112973483623737"
   },
   {
     "id": "20261101-03",
