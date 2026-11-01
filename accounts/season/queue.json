@@ -621,5 +621,36 @@
     "note": "짧은 글",
     "text": "손 시려서 핫팩 꺼냈는데 핫팩이 내 손보다 차가움\n\n지금 열심히 흔드는 중",
     "status": "queued"
+  },
+  {
+    "id": "20261102-01",
+    "scheduled_at": "2026-11-02T08:14:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "note": "",
+    "text": "아침에 창문에 물방울 맺히기 시작했으면 곰팡이 전에 이것부터\n\n1. 아침에 5~10분 맞바람 환기\n2. 창틀 아래 고인 물은 마른 걸레로 바로 닦기\n3. 가구는 벽이랑 창에서 조금 띄우기\n4. 빨래는 창가 말고 다른 곳에 널기\n\n물기만 안 남겨도 반은 막아",
+    "status": "queued",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261102-01.png"
+  },
+  {
+    "id": "20261102-02",
+    "scheduled_at": "2026-11-02T21:12:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 정보",
+    "note": "공감형",
+    "text": "자다가 이불 밖으로 발 하나 내놓는 사람\n\n넣으면 덥고 빼면 춥고\n\n밤새 몇 번 왔다 갔다 해?",
+    "status": "queued"
+  },
+  {
+    "id": "20261102-03",
+    "scheduled_at": "2026-11-02T22:25:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "생활 정보",
+    "note": "짧은 글",
+    "text": "보일러 켤까 말까 30분째 고민하다가\n\n그냥 패딩 입고 집에 있는 중",
+    "status": "queued"
   }
 ]
