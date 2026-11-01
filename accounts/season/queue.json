@@ -600,8 +600,12 @@
     "reply_delay_min": 0,
     "product": "골드박스 11/1: 틴도우 products/8769129764 (09:07 확인, 46% 판매)",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261101-K1.png",
-    "status": "queued",
-    "note": "계절 특가 글(10/27~ 하루 1개)"
+    "status": "posted",
+    "note": "계절 특가 글(10/27~ 하루 1개)",
+    "posted_at": "2026-11-01T12:48:22.880897+09:00",
+    "post_id": "18246356539313766",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfLzSKvEd55",
+    "reply_id": "18147694702602867"
   },
   {
     "id": "20261101-02",
