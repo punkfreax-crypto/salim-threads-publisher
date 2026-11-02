@@ -1376,5 +1376,19 @@
     "text": "냉장고 반찬통 열어보기 무서워서 그냥 닫은 적 있는 사람\n\n뚜껑 색만 보고 뭐였는지 기억해내는 중이면 인정\n\n너네 냉장고 제일 안쪽엔 뭐가 있어?",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261102-04.png",
     "status": "queued"
+  },
+  {
+    "id": "20261102-K1",
+    "scheduled_at": "2026-11-02T21:47:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "살림템 추천",
+    "text": "와우멤버스데이 오늘 시작했는데 오전 10시 장바구니 쿠폰은 오후 4시에 보니까 벌써 선착순 마감이었어\n\n조건은 이래\n- 와우데이 상품 3만원 이상 1만원 할인\n- 10만원 이상 3만원 할인\n- 오늘 받은 쿠폰은 내일 아침 7시 전에 사라짐\n\n한정특가에서 살림 쪽으로 눈에 띈 건\n- 비욘드 딥 모이스처 바디워시 500ml 3개 56% 37,950원\n- 락앤락 발효 숙성 용기 6L 6개 40% 46,300원\n\n오후 4시 기준 가격이고, 두 번째 쿠폰은 오후 5시에 열린다고 떠 있었어\n쿠폰 있으면 뭐 담을 거야? 댓글로 알려줘\n상품 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n비욘드 바디워시 500ml×3 (56%)\nhttps://link.coupang.com/a/iluGNqUuPs\n\n락앤락 발효 숙성 용기 6L×6 (40%)\nhttps://link.coupang.com/a/iluG1Qb9au\n\n와우멤버스데이 행사 페이지\nhttps://link.coupang.com/a/iluHhg41L2",
+    "reply_delay_min": 0,
+    "product": "와우멤버스데이 11/2 (landingId=5508, 16:00 확인): 비욘드 products/8316216303, 락앤락 products/2216722907",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261102-K1.png",
+    "status": "queued",
+    "note": "PLAYBOOK H 와우데이 밤 글(쿠폰 익일 06:59 소멸)"
   }
 ]
