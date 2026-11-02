@@ -679,5 +679,36 @@
     "note": "짧은 글",
     "text": "보일러 켤까 말까 30분째 고민하다가\n\n그냥 패딩 입고 집에 있는 중",
     "status": "queued"
+  },
+  {
+    "id": "20261103-01",
+    "scheduled_at": "2026-11-03T08:15:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활비",
+    "text": "잠깐 나갈 때 보일러 완전히 끄고 나가는 사람, 외출 시간 따라 다르게 해봐\n\n- 몇 시간 정도면 끄지 말고 온도만 조금 낮추기\n- 며칠 비우면 외출 모드로 두기(동파 방지)\n- 온수 온도는 한 단계 낮춰두기\n- 문틈·창틈 바람 들어오는 곳부터 막기\n\n다 식은 집을 다시 데우는 데 더 드는 경우가 많대",
+    "status": "queued",
+    "note": "",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261103-01.png"
+  },
+  {
+    "id": "20261103-02",
+    "scheduled_at": "2026-11-03T21:13:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 정보",
+    "text": "겨울에 집에서 몇 겹까지 껴입어봤어?\n\n보일러 대신 옷으로 버티는 집 은근 많더라\n\n솔직하게 몇 겹인지 남겨줘",
+    "status": "queued",
+    "note": "공감형"
+  },
+  {
+    "id": "20261103-03",
+    "scheduled_at": "2026-11-03T22:26:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "생활 정보",
+    "text": "따뜻한 물로 설거지하려고 틀었는데\n\n따뜻해질 때쯤 설거지 끝남",
+    "status": "queued",
+    "note": "짧은 글"
   }
 ]
