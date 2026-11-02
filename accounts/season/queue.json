@@ -647,6 +647,20 @@
     "permalink": "https://www.threads.com/@season.ggultem.note/post/DfN5E31mqd4"
   },
   {
+    "id": "20261102-K1",
+    "scheduled_at": "2026-11-02T16:38:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "생활 정보",
+    "text": "아침마다 물 끓이는 횟수 늘었으면 오늘 와우멤버스데이 한정특가 하나 볼 만해\n\n- 필립스 3000 무선 전기주전자 49% 22,570원 (상품평 9,999+)\n- 한일 그래핀 디지털 전기요 퀸 22% 116,560원\n\n오후 4시 기준 와우회원 할인가야\n와우데이 상품 3만원 이상이면 1만원 깎아주는 장바구니 쿠폰은 오후 5시에 두 번째로 열린대\n따뜻한 물 하루에 몇 번 끓여? 댓글로 알려줘\n상품 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n필립스 3000 무선 전기주전자 (49%)\nhttps://link.coupang.com/a/iluHvWEXNA\n\n한일 그래핀 디지털 전기요 퀸 (22%)\nhttps://link.coupang.com/a/iluHJJlarQ\n\n와우멤버스데이 행사 페이지\nhttps://link.coupang.com/a/iluHhg41L2",
+    "reply_delay_min": 0,
+    "product": "와우멤버스데이 11/2 (landingId=5508, 16:00 확인): 필립스 products/2068932759, 한일 products/6122023880",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261102-K1.png",
+    "status": "queued",
+    "note": "PLAYBOOK H 계절 와우데이 글"
+  },
+  {
     "id": "20261102-02",
     "scheduled_at": "2026-11-02T21:12:00+09:00",
     "type": "info",
