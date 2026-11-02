@@ -27,16 +27,16 @@
       "max_ads": 1
     },
     {
-      "name": "확장",
+      "name": "확장(광고 하루 1개 유지, PLAYBOOK 30)",
       "until_day": 35,
-      "max_posts": 8,
-      "max_ads": 2
+      "max_posts": 5,
+      "max_ads": 1
     },
     {
       "name": "운영",
       "until_day": 9999,
-      "max_posts": 12,
-      "max_ads": 4
+      "max_posts": 6,
+      "max_ads": 1
     }
   ],
   "goal_monthly_krw": 500000,
@@ -65,5 +65,5 @@
     "살림 꿀팁"
   ],
   "slot_rule": "목록은 우선순위 순(밤·아침·점심 먼저). 하루 max_posts개를 앞에서부터 골라 시간순으로 배치, 0~25분 랜덤 오프셋",
-  "review_note": "10/26 '5배' 전략(PLAYBOOK 28): 10/27(9일차)부터 행사·골드박스 특가 글 하루 1개(계절가전·생활, 12~14시). 일반 상품 광고는 금지. 정보 글 3개는 유지"
+  "review_note": "11/3 점검(PLAYBOOK 30): 광고 하루 최대 1개·답글 링크 1개·같은 링크 재사용 금지. 와우 글(11/3~11/8)은 계절이 하루 1개"
 }
