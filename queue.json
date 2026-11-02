@@ -1391,8 +1391,12 @@
     "reply_delay_min": 0,
     "product": "와우멤버스데이 11/2 (landingId=5508, 16:00 확인): 비욘드 products/8316216303, 락앤락 products/2216722907",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261102-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK H 와우데이 밤 글(쿠폰 익일 06:59 소멸)"
+    "status": "posted",
+    "note": "PLAYBOOK H 와우데이 밤 글(쿠폰 익일 06:59 소멸)",
+    "posted_at": "2026-11-02T21:55:30.238916+09:00",
+    "post_id": "18027628739919571",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfPWr3eERFx",
+    "reply_id": "17916404676550813"
   },
   {
     "id": "20261103-01",
