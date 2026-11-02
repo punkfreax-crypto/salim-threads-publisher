@@ -1390,5 +1390,46 @@
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261102-K1.png",
     "status": "queued",
     "note": "PLAYBOOK H 와우데이 밤 글(쿠폰 익일 06:59 소멸)"
+  },
+  {
+    "id": "20261103-01",
+    "scheduled_at": "2026-11-03T07:47:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "text": "전자레인지 안에 튄 거 굳었으면 수세미부터 들지 마\n\n- 내열 그릇에 물 한 컵 넣고 2~3분 돌리기\n- 끝나도 문 닫은 채로 잠깐 두기\n- 김에 불은 다음 키친타월로 닦기\n- 회전판은 빼서 따로 씻기\n\n말라붙은 거 긁다가 안쪽 흠집 내는 것보다 이게 덜 힘들어",
+    "status": "queued",
+    "note": "",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261103-01.png"
+  },
+  {
+    "id": "20261103-02",
+    "scheduled_at": "2026-11-03T10:05:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 팁",
+    "text": "화요일인데 어제 못 한 집안일 쌓여 있어도 괜찮아\n\n하루에 하나씩만 지워도 주말쯤엔 반은 줄어 있어\n\n오늘 딱 하나만 한다면 뭐 할래?",
+    "status": "queued",
+    "note": "허락형"
+  },
+  {
+    "id": "20261103-03",
+    "scheduled_at": "2026-11-03T15:51:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "text": "세탁기 다 됐다는 소리 듣고\n\n세 시간째 안 꺼내는 중",
+    "status": "queued",
+    "note": "짧은 글"
+  },
+  {
+    "id": "20261103-04",
+    "scheduled_at": "2026-11-03T20:27:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "text": "배달 용기 씻어서 모아두는데 한 번도 다시 안 쓴 사람\n\n언젠가 쓸 것 같아서 못 버리고\n싱크대 밑에 탑만 높아지는 중\n\n몇 개까지 모아봤어?",
+    "status": "queued",
+    "note": "고백형"
   }
 ]
