@@ -657,8 +657,12 @@
     "reply_delay_min": 0,
     "product": "와우멤버스데이 11/2 (landingId=5508, 16:00 확인): 필립스 products/2068932759, 한일 products/6122023880",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261102-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK H 계절 와우데이 글"
+    "status": "posted",
+    "note": "PLAYBOOK H 계절 와우데이 글",
+    "posted_at": "2026-11-02T16:41:44.608002+09:00",
+    "post_id": "18066826124532526",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfOyyozlHc1",
+    "reply_id": "18077674286729297"
   },
   {
     "id": "20261102-02",
