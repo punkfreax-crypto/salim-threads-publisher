@@ -715,8 +715,12 @@
     "reply_delay_min": 0,
     "product": "와우멤버스데이 11/3 (landingId=5508, 10:02 확인): 코멧 속장갑 products/8255612932, 2개 9,770원 와우할인",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261103-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)"
+    "status": "posted",
+    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)",
+    "posted_at": "2026-11-03T12:52:36.874554+09:00",
+    "post_id": "18100995206646797",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfQ9W1cIG-N",
+    "reply_id": "17914985601283415"
   },
   {
     "id": "20261103-02",
