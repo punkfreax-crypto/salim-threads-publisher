@@ -1444,5 +1444,46 @@
     "text": "배달 용기 씻어서 모아두는데 한 번도 다시 안 쓴 사람\n\n언젠가 쓸 것 같아서 못 버리고\n싱크대 밑에 탑만 높아지는 중\n\n몇 개까지 모아봤어?",
     "status": "queued",
     "note": "고백형"
+  },
+  {
+    "id": "20261104-01",
+    "scheduled_at": "2026-11-04T07:44:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "status": "queued",
+    "note": "",
+    "text": "냉동실 문 열 때마다 뭐가 툭 떨어지는 사람, 이렇게만 바꿔봐\n\n- 지퍼백은 납작하게 얼려서 책처럼 세워 넣기\n- 봉투에 넣은 날짜 크게 적기\n- 자주 꺼내는 건 문 쪽, 오래 둘 건 안쪽\n- 한 달에 한 번 제일 오래된 것부터 먹기\n\n뭐가 있는지 보이기만 해도 같은 거 또 사는 일이 줄어",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261104-01.png"
+  },
+  {
+    "id": "20261104-02",
+    "scheduled_at": "2026-11-04T10:02:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 팁",
+    "status": "queued",
+    "note": "허락형",
+    "text": "의자에 옷 쌓아두는 거, 그렇게 나쁜 거 아니야\n\n한 번 입은 옷 걸 데가 없어서 그런 거지 게을러서가 아니야\n\n너네 집 그 의자엔 지금 몇 벌 있어?"
+  },
+  {
+    "id": "20261104-03",
+    "scheduled_at": "2026-11-04T15:54:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "status": "queued",
+    "note": "짧은 글",
+    "text": "휴지 하나 사러 마트 갔다가\n\n휴지 빼고 다 사 옴"
+  },
+  {
+    "id": "20261104-04",
+    "scheduled_at": "2026-11-04T20:30:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "status": "queued",
+    "note": "고백형",
+    "text": "서랍에 어디 쓰는 건지 모르는 충전 케이블 있는 사람\n\n버렸다가 그게 필요할까 봐 그대로 두는 중\n\n너네 서랍엔 정체불명 케이블 몇 개야?"
   }
 ]
