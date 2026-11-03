@@ -737,5 +737,36 @@
     "text": "따뜻한 물로 설거지하려고 틀었는데\n\n따뜻해질 때쯤 설거지 끝남",
     "status": "queued",
     "note": "짧은 글"
+  },
+  {
+    "id": "20261104-01",
+    "scheduled_at": "2026-11-04T08:13:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "status": "queued",
+    "note": "",
+    "text": "니트 벗을 때 따닥 소리 나기 시작했으면 이것부터\n\n1. 실내 습도 40~60% 맞추기 (젖은 수건 널어두기도 도움)\n2. 빨래 헹굴 때 섬유유연제 넣기\n3. 손 보습 자주 하기\n4. 문고리는 열쇠나 동전 끝으로 먼저 대고 잡기\n\n정전기는 건조할수록 심해서 습도부터 챙기면 훨씬 덜해",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261104-01.png"
+  },
+  {
+    "id": "20261104-02",
+    "scheduled_at": "2026-11-04T21:15:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 정보",
+    "status": "queued",
+    "note": "공감형",
+    "text": "샤워하고 나와서 욕실 문 여는 순간이 하루 중 제일 추움\n\n이것 때문에 샤워 미루는 사람 분명 있지\n\n너는 겨울에 아침에 씻어, 저녁에 씻어?"
+  },
+  {
+    "id": "20261104-03",
+    "scheduled_at": "2026-11-04T22:23:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "생활 정보",
+    "status": "queued",
+    "note": "짧은 글",
+    "text": "이불 밖으로 안 나가려고\n\n충전기 선 닿는 데까지만 움직이는 중"
   }
 ]
