@@ -1419,8 +1419,11 @@
     "format": "question",
     "topic_tag": "생활 팁",
     "text": "화요일인데 어제 못 한 집안일 쌓여 있어도 괜찮아\n\n하루에 하나씩만 지워도 주말쯤엔 반은 줄어 있어\n\n오늘 딱 하나만 한다면 뭐 할래?",
-    "status": "queued",
-    "note": "허락형"
+    "status": "posted",
+    "note": "허락형",
+    "posted_at": "2026-11-03T10:10:50.776823+09:00",
+    "post_id": "18145081036592032",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfQq6HwoAnw"
   },
   {
     "id": "20261103-03",
