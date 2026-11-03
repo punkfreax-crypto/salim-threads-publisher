@@ -1432,8 +1432,11 @@
     "format": "humor",
     "topic_tag": "자취생",
     "text": "세탁기 다 됐다는 소리 듣고\n\n세 시간째 안 꺼내는 중",
-    "status": "queued",
-    "note": "짧은 글"
+    "status": "posted",
+    "note": "짧은 글",
+    "posted_at": "2026-11-03T15:54:24.791858+09:00",
+    "post_id": "18108763517627422",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfRSOdDm5G-"
   },
   {
     "id": "20261103-04",
