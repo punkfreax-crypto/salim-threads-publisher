@@ -754,10 +754,13 @@
     "type": "info",
     "format": "tip",
     "topic_tag": "생활 팁",
-    "status": "queued",
+    "status": "posted",
     "note": "",
     "text": "니트 벗을 때 따닥 소리 나기 시작했으면 이것부터\n\n1. 실내 습도 40~60% 맞추기 (젖은 수건 널어두기도 도움)\n2. 빨래 헹굴 때 섬유유연제 넣기\n3. 손 보습 자주 하기\n4. 문고리는 열쇠나 동전 끝으로 먼저 대고 잡기\n\n정전기는 건조할수록 심해서 습도부터 챙기면 훨씬 덜해",
-    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261104-01.png"
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261104-01.png",
+    "posted_at": "2026-11-04T08:16:12.343806+09:00",
+    "post_id": "18038540516844495",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfTCkzpCZ1h"
   },
   {
     "id": "20261104-K1",
