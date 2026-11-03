@@ -1457,10 +1457,13 @@
     "type": "info",
     "format": "tip",
     "topic_tag": "살림 꿀팁",
-    "status": "queued",
+    "status": "posted",
     "note": "",
     "text": "냉동실 문 열 때마다 뭐가 툭 떨어지는 사람, 이렇게만 바꿔봐\n\n- 지퍼백은 납작하게 얼려서 책처럼 세워 넣기\n- 봉투에 넣은 날짜 크게 적기\n- 자주 꺼내는 건 문 쪽, 오래 둘 건 안쪽\n- 한 달에 한 번 제일 오래된 것부터 먹기\n\n뭐가 있는지 보이기만 해도 같은 거 또 사는 일이 줄어",
-    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261104-01.png"
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261104-01.png",
+    "posted_at": "2026-11-04T07:45:39.310365+09:00",
+    "post_id": "18078804053447866",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfS_FZqiUM5"
   },
   {
     "id": "20261104-02",
