@@ -812,6 +812,20 @@
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261105-01.png"
   },
   {
+    "id": "20261105-K1",
+    "scheduled_at": "2026-11-05T13:17:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "생활 팁",
+    "text": "와우멤버스데이 나흘째, 9일 아침 7시에 끝나\n어제 오후 3시에 행사 페이지 보니까 가습기 하나에 '얼마 남지 않았어요'가 떠 있더라\n\n- 한경희 듀얼 초음파 가습기 퓨어에이드 HTM-700C\n- 37,610원 → 26,500원 (와우쿠폰할인 29%)\n- 상품평 1,122개\n\n가격은 어제(수) 오후 3시 기준이라 바뀌었을 수 있어\n가습기 벌써 꺼냈어? 아직 버티는 중이야? 댓글로 알려줘\n상품 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n난방 켜고 방 마를 때 이거 하나\nhttps://link.coupang.com/a/ioKz1B6YWy",
+    "reply_delay_min": 0,
+    "product": "와우멤버스데이 11/4 15:08 확인(landingId=5508 와우할인, '얼마 남지 않았어요'): 한경희 듀얼 초음파 가습기 HTM-700C products/8440561703, 26,500원 29%, 상품평 1,122",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261105-K1.png",
+    "status": "queued",
+    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)"
+  },
+  {
     "id": "20261105-02",
     "scheduled_at": "2026-11-05T21:13:00+09:00",
     "type": "info",
