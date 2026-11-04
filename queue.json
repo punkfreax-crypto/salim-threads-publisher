@@ -1485,8 +1485,8 @@
     "format": "humor",
     "topic_tag": "자취생",
     "status": "queued",
-    "note": "짧은 글",
-    "text": "휴지 하나 사러 마트 갔다가\n\n휴지 빼고 다 사 옴"
+    "note": "짧은 글(10/29 휴지 글 중복이라 교체)",
+    "text": "냉장고 문 열고\n\n뭐 꺼내려 했는지 까먹고 그냥 닫음"
   },
   {
     "id": "20261104-04",
@@ -1497,5 +1497,46 @@
     "status": "queued",
     "note": "고백형",
     "text": "서랍에 어디 쓰는 건지 모르는 충전 케이블 있는 사람\n\n버렸다가 그게 필요할까 봐 그대로 두는 중\n\n너네 서랍엔 정체불명 케이블 몇 개야?"
+  },
+  {
+    "id": "20261105-01",
+    "scheduled_at": "2026-11-05T07:46:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "살림 꿀팁",
+    "status": "queued",
+    "note": "",
+    "text": "싱크대에서 퀴퀴한 냄새 올라오면 락스 붓기 전에 거름망부터 봐\n\n- 거름망 음식물은 그날그날 비우기\n- 일주일에 한 번 거름망이랑 고무 덮개 빼서 솔로 닦기\n- 베이킹소다 한 컵에 식초 반 컵, 30분 뒤 따뜻한 물로 헹구기\n- 기름은 키친타월로 닦아서 버리기\n\n그래도 계속 냄새 나면 배관 쪽일 수 있어서 관리실에 먼저 물어보는 게 빨라",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261105-01.png"
+  },
+  {
+    "id": "20261105-02",
+    "scheduled_at": "2026-11-05T10:04:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 팁",
+    "status": "queued",
+    "note": "허락형",
+    "text": "빨래 갤 때 각 맞춰서 안 접어도 돼\n\n서랍에 들어가기만 하면 그걸로 할 일 다 한 거야\n\n너는 수건 반으로 접어, 세 번 접어?"
+  },
+  {
+    "id": "20261105-03",
+    "scheduled_at": "2026-11-05T15:52:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "자취생",
+    "status": "queued",
+    "note": "짧은 글",
+    "text": "이불 빨래 오늘 꼭 하려고 했는데\n\n해 지고 나서 생각남"
+  },
+  {
+    "id": "20261105-04",
+    "scheduled_at": "2026-11-05T20:28:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "자취 꿀팁",
+    "status": "queued",
+    "note": "고백형",
+    "text": "언젠가 쓰겠지 하고 모아둔 쇼핑백이 서랍 하나를 다 차지한 사람\n\n막상 쓸 땐 맨 위에 있는 것만 꺼냄\n\n너네 집 쇼핑백 칸은 어디야?"
   }
 ]
