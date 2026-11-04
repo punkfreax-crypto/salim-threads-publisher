@@ -795,5 +795,36 @@
     "status": "queued",
     "note": "짧은 글",
     "text": "이불 밖으로 안 나가려고\n\n충전기 선 닿는 데까지만 움직이는 중"
+  },
+  {
+    "id": "20261105-01",
+    "scheduled_at": "2026-11-05T08:14:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "status": "queued",
+    "note": "",
+    "text": "작년 패딩 꺼냈는데 납작하게 죽어 있으면 입기 전에 이것부터\n\n1. 옷걸이에 걸어 하루 정도 그대로 두기\n2. 뭉친 칸은 손바닥으로 톡톡 두드려서 펴기\n3. 냄새 나면 그늘에서 바람 통하게 말리기\n4. 세탁 전엔 안쪽 라벨부터 확인하기 (드라이 전용도 있어)\n\n압축팩에 넣어뒀던 패딩일수록 하루 걸어두는 게 먼저야",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261105-01.png"
+  },
+  {
+    "id": "20261105-02",
+    "scheduled_at": "2026-11-05T21:13:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 정보",
+    "status": "queued",
+    "note": "공감형",
+    "text": "겨울 이불은 무거워야 잠이 오는 사람\n\n가벼운 거 덮으면 뭔가 허전해서 하나 더 얹게 됨\n\n얇은 거 여러 겹 파야, 두꺼운 거 한 장 파야?"
+  },
+  {
+    "id": "20261105-03",
+    "scheduled_at": "2026-11-05T22:24:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "생활 정보",
+    "status": "queued",
+    "note": "짧은 글",
+    "text": "자기 전에 물 마시러 거실 나갔다가\n\n바닥 차가워서 까치발로 뛰어 들어옴"
   }
 ]
