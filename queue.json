@@ -1484,9 +1484,12 @@
     "type": "info",
     "format": "humor",
     "topic_tag": "자취생",
-    "status": "queued",
+    "status": "posted",
     "note": "짧은 글(10/29 휴지 글 중복이라 교체)",
-    "text": "냉장고 문 열고\n\n뭐 꺼내려 했는지 까먹고 그냥 닫음"
+    "text": "냉장고 문 열고\n\n뭐 꺼내려 했는지 까먹고 그냥 닫음",
+    "posted_at": "2026-11-04T16:00:35.735254+09:00",
+    "post_id": "17988792866886664",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfT3uirHEfT"
   },
   {
     "id": "20261104-04",
