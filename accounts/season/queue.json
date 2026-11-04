@@ -773,8 +773,12 @@
     "reply_delay_min": 0,
     "product": "와우멤버스데이 11/3 15:01 확인(landingId=5508 와우할인가): 일리윤 세라마이드 아토 집중 바디크림 무향 500ml products/6980895530, 22,320원 35%, 상품평 18,484",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261104-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)"
+    "status": "posted",
+    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)",
+    "posted_at": "2026-11-04T13:49:36.468274+09:00",
+    "post_id": "18146880964564718",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfToqvInMIQ",
+    "reply_id": "18012726626774107"
   },
   {
     "id": "20261104-02",
