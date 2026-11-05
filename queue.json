@@ -1537,9 +1537,12 @@
     "type": "info",
     "format": "humor",
     "topic_tag": "자취생",
-    "status": "queued",
+    "status": "posted",
     "note": "짧은 글",
-    "text": "이불 빨래 오늘 꼭 하려고 했는데\n\n해 지고 나서 생각남"
+    "text": "이불 빨래 오늘 꼭 하려고 했는데\n\n해 지고 나서 생각남",
+    "posted_at": "2026-11-05T15:53:25.498664+09:00",
+    "post_id": "18132179629881673",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfWbs8bltYs"
   },
   {
     "id": "20261105-04",
