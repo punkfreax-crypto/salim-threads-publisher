@@ -870,10 +870,13 @@
     "type": "info",
     "format": "tip",
     "topic_tag": "생활 팁",
-    "status": "queued",
+    "status": "posted",
     "note": "",
     "text": "해 지면 집이 확 식는 느낌이면 커튼부터 챙겨봐\n\n1. 낮엔 커튼 열어서 햇볕 들이기\n2. 해 지면 바로 닫기\n3. 커튼은 바닥까지 닿는 길이가 유리해\n4. 창 쪽에 큰 가구 붙여두면 햇볕이 막혀\n\n낮에 모은 온기를 밤까지 지키는 거라 돈 안 드는 방법이야",
-    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261106-01.png"
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261106-01.png",
+    "posted_at": "2026-11-06T08:19:53.775212+09:00",
+    "post_id": "17967491216980216",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfYMmGCjmUu"
   },
   {
     "id": "20261106-K1",
