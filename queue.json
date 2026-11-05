@@ -1563,10 +1563,13 @@
     "type": "info",
     "format": "tip",
     "topic_tag": "살림 꿀팁",
-    "status": "queued",
+    "status": "posted",
     "note": "",
     "text": "주방 후드 필터가 끈적끈적하면 수세미로 박박 문지르기 전에 이렇게 해봐\n\n- 필터 빼서 뜨거운 물에 담그기\n- 베이킹소다 2~3큰술 풀어서 30분 두기\n- 부드러운 솔로 결 따라 닦기\n- 완전히 말린 뒤 다시 끼우기\n\n필터 빼는 방법은 제품마다 달라서 설명서 먼저 보는 게 안전해",
-    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261106-01.png"
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/salim/20261106-01.png",
+    "posted_at": "2026-11-06T07:49:26.925330+09:00",
+    "post_id": "18425739829158354",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfYJHA-DoIT"
   },
   {
     "id": "20261106-02",
