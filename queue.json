@@ -1550,9 +1550,12 @@
     "type": "info",
     "format": "question",
     "topic_tag": "자취 꿀팁",
-    "status": "queued",
+    "status": "posted",
     "note": "고백형",
-    "text": "언젠가 쓰겠지 하고 모아둔 쇼핑백이 서랍 하나를 다 차지한 사람\n\n막상 쓸 땐 맨 위에 있는 것만 꺼냄\n\n너네 집 쇼핑백 칸은 어디야?"
+    "text": "언젠가 쓰겠지 하고 모아둔 쇼핑백이 서랍 하나를 다 차지한 사람\n\n막상 쓸 땐 맨 위에 있는 것만 꺼냄\n\n너네 집 쇼핑백 칸은 어디야?",
+    "posted_at": "2026-11-05T20:35:28.732451+09:00",
+    "post_id": "18098907176399285",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfW7-4Plbbi"
   },
   {
     "id": "20261106-01",
