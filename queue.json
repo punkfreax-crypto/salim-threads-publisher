@@ -1524,9 +1524,12 @@
     "type": "info",
     "format": "question",
     "topic_tag": "생활 팁",
-    "status": "queued",
+    "status": "posted",
     "note": "허락형",
-    "text": "빨래 갤 때 각 맞춰서 안 접어도 돼\n\n서랍에 들어가기만 하면 그걸로 할 일 다 한 거야\n\n너는 수건 반으로 접어, 세 번 접어?"
+    "text": "빨래 갤 때 각 맞춰서 안 접어도 돼\n\n서랍에 들어가기만 하면 그걸로 할 일 다 한 거야\n\n너는 수건 반으로 접어, 세 번 접어?",
+    "posted_at": "2026-11-05T10:10:10.076366+09:00",
+    "post_id": "18091337399255888",
+    "permalink": "https://www.threads.com/@salim.ggultem.note/post/DfV0bC1FoNc"
   },
   {
     "id": "20261105-03",
