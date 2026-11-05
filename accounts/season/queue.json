@@ -844,9 +844,12 @@
     "type": "info",
     "format": "question",
     "topic_tag": "생활 정보",
-    "status": "queued",
+    "status": "posted",
     "note": "공감형",
-    "text": "겨울 이불은 무거워야 잠이 오는 사람\n\n가벼운 거 덮으면 뭔가 허전해서 하나 더 얹게 됨\n\n너는 겨울 이불 언제 꺼냈어?"
+    "text": "겨울 이불은 무거워야 잠이 오는 사람\n\n가벼운 거 덮으면 뭔가 허전해서 하나 더 얹게 됨\n\n너는 겨울 이불 언제 꺼냈어?",
+    "posted_at": "2026-11-05T21:16:02.171020+09:00",
+    "post_id": "18137745667732454",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfXAnuqlXeo"
   },
   {
     "id": "20261105-03",
