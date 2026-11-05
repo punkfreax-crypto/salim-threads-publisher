@@ -853,5 +853,36 @@
     "status": "queued",
     "note": "짧은 글",
     "text": "자기 전에 물 마시러 거실 나갔다가\n\n바닥 차가워서 까치발로 뛰어 들어옴"
+  },
+  {
+    "id": "20261106-01",
+    "scheduled_at": "2026-11-06T08:12:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "status": "queued",
+    "note": "",
+    "text": "해 지면 집이 확 식는 느낌이면 커튼부터 챙겨봐\n\n1. 낮엔 커튼 열어서 햇볕 들이기\n2. 해 지면 바로 닫기\n3. 커튼은 바닥까지 닿는 길이가 유리해\n4. 창 쪽에 큰 가구 붙여두면 햇볕이 막혀\n\n낮에 모은 온기를 밤까지 지키는 거라 돈 안 드는 방법이야",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261106-01.png"
+  },
+  {
+    "id": "20261106-02",
+    "scheduled_at": "2026-11-06T21:16:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 정보",
+    "status": "queued",
+    "note": "공감형",
+    "text": "퇴근하고 문 열었는데 집 안이 바깥이랑 똑같이 추운 사람\n\n신발 벗기도 전에 몸이 먼저 움츠러들어\n\n집 오자마자 제일 먼저 하는 거 뭐야?"
+  },
+  {
+    "id": "20261106-03",
+    "scheduled_at": "2026-11-06T22:21:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "생활 정보",
+    "status": "queued",
+    "note": "짧은 글",
+    "text": "귤 딱 하나만 먹으려고 꺼냈는데\n\n정신 차려보니 손톱이 노래짐"
   }
 ]
