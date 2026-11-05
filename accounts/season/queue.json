@@ -831,8 +831,12 @@
     "reply_delay_min": 0,
     "product": "와우멤버스데이 11/4 15:08 확인(landingId=5508 와우할인, '얼마 남지 않았어요'): 한경희 듀얼 초음파 가습기 HTM-700C products/8440561703, 26,500원 29%, 상품평 1,122",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261105-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)"
+    "status": "posted",
+    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)",
+    "posted_at": "2026-11-05T13:22:05.875606+09:00",
+    "post_id": "18051047243816180",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfWKUtLluqd",
+    "reply_id": "18357360268169288"
   },
   {
     "id": "20261105-02",
