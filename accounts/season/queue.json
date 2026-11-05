@@ -870,6 +870,20 @@
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261106-01.png"
   },
   {
+    "id": "20261106-K1",
+    "scheduled_at": "2026-11-06T13:24:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "생활 팁",
+    "text": "와우멤버스데이 닷새째, 9일 아침 7시에 끝나\n어제 오후 3시에 행사 페이지 보니까 거실화가 39% 내려와 있더라\n\n- 라이프란스 3중쿠션 면 층간소음 무소음 거실화\n- 21,300원 → 12,880원 (와우할인 39%)\n- 상품평 9,858개\n\n가격은 어제(목) 오후 3시 기준이라 바뀌었을 수 있어\n집에선 맨발파야, 슬리퍼파야? 댓글로 알려줘\n상품 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n바닥 차가워질 때 발밑에 이거\nhttps://link.coupang.com/a/iqoWaWMFxI",
+    "reply_delay_min": 0,
+    "product": "와우멤버스데이 11/5 15:0x 확인(landingId=5508 와우할인가): 라이프란스 3중쿠션 면 층간소음 무소음 거실화 products/8812509839, 12,880원 39%, 상품평 9,858",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261106-K1.png",
+    "status": "queued",
+    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)"
+  },
+  {
     "id": "20261106-02",
     "scheduled_at": "2026-11-06T21:16:00+09:00",
     "type": "info",
