@@ -889,8 +889,12 @@
     "reply_delay_min": 0,
     "product": "와우멤버스데이 11/5 15:0x 확인(landingId=5508 와우할인가): 라이프란스 3중쿠션 면 층간소음 무소음 거실화 products/8812509839, 12,880원 39%, 상품평 9,858",
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261106-K1.png",
-    "status": "queued",
-    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)"
+    "status": "posted",
+    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)",
+    "posted_at": "2026-11-06T13:32:56.619942+09:00",
+    "post_id": "18644195659044431",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfYwWLnDlJ4",
+    "reply_id": "18116120132466969"
   },
   {
     "id": "20261106-02",
