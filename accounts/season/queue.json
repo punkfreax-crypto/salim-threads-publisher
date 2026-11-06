@@ -915,9 +915,12 @@
     "type": "info",
     "format": "humor",
     "topic_tag": "생활 정보",
-    "status": "queued",
+    "status": "posted",
     "note": "짧은 글",
-    "text": "귤 딱 하나만 먹으려고 꺼냈는데\n\n정신 차려보니 손톱이 노래짐"
+    "text": "귤 딱 하나만 먹으려고 꺼냈는데\n\n정신 차려보니 손톱이 노래짐",
+    "posted_at": "2026-11-06T22:31:02.603055+09:00",
+    "post_id": "18129083762310317",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfZuAGtm1do"
   },
   {
     "id": "20261107-01",
