@@ -911,5 +911,36 @@
     "status": "queued",
     "note": "짧은 글",
     "text": "귤 딱 하나만 먹으려고 꺼냈는데\n\n정신 차려보니 손톱이 노래짐"
+  },
+  {
+    "id": "20261107-01",
+    "scheduled_at": "2026-11-07T08:14:00+09:00",
+    "type": "info",
+    "format": "tip",
+    "topic_tag": "생활 팁",
+    "status": "queued",
+    "note": "",
+    "text": "이번 주 아침 기온 영하 예보 보이면 베란다 세탁기부터 챙겨\n급수 호스에 남은 물이 먼저 얼어\n\n- 빨래 끝나면 수도꼭지 잠그기\n- 급수 호스 빼서 남은 물 빼두기\n- 베란다 문 닫고 헌 옷이나 보온재로 수도꼭지·호스 감싸기\n- 이미 얼었으면 뜨거운 물 붓지 말고 미지근한 수건으로 천천히\n\n제품마다 방법이 조금 달라서 설명서 동파 항목 한 번 봐두면 좋아",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261107-01.png"
+  },
+  {
+    "id": "20261107-02",
+    "scheduled_at": "2026-11-07T21:13:00+09:00",
+    "type": "info",
+    "format": "question",
+    "topic_tag": "생활 정보",
+    "status": "queued",
+    "note": "공감형",
+    "text": "겨울엔 집에 들어오자마자 제일 먼저 켜는 거 있잖아\n\n보일러부터 올리는 사람\n전기장판부터 켜는 사람\n일단 이불 속으로 들어가는 사람\n\n너는 뭐부터 켜?"
+  },
+  {
+    "id": "20261107-03",
+    "scheduled_at": "2026-11-07T22:24:00+09:00",
+    "type": "info",
+    "format": "humor",
+    "topic_tag": "생활 정보",
+    "status": "queued",
+    "note": "짧은 글",
+    "text": "세수하려고 물 틀었는데\n따뜻한 물 나올 때까지 기다리는 그 30초가\n하루 중 제일 길어"
   }
 ]
