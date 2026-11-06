@@ -48,10 +48,10 @@
       "max_ads": 0
     },
     {
-      "name": "유지(광고 하루 최대 1개, 11/6 판단 후)",
+      "name": "광고 계속 중단(11/6 판단: 11/3~11/5 정보 글 중앙값 2.0 <15, PLAYBOOK 30)",
       "until_day": 9999,
       "max_posts": 6,
-      "max_ads": 1
+      "max_ads": 0
     }
   ],
   "coupang": {
