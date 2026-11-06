@@ -928,6 +928,20 @@
     "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261107-01.png"
   },
   {
+    "id": "20261107-K1",
+    "scheduled_at": "2026-11-07T13:38:00+09:00",
+    "type": "ad",
+    "format": "list",
+    "topic_tag": "생활 팁",
+    "text": "와우멤버스데이 엿새째, 이제 9일 아침 7시까지야\n어제 오후 3시에 행사 페이지 보니까 보온병이 72%나 내려와 있더라\n\n- 락앤락 아웃도어 보온병 1.2L\n- 89,030원 → 24,820원 (와우할인 72%)\n- 상품평 4,862개\n\n가격은 어제(금) 오후 3시 기준이라 바뀌었을 수 있어\n겨울엔 따뜻한 물파야, 커피파야? 댓글로 알려줘\n상품 링크는 고정 댓글에",
+    "reply_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n찬바람 부는 아침 가방에 이거\nhttps://link.coupang.com/a/ir3Wvp8pdA",
+    "reply_delay_min": 0,
+    "product": "와우멤버스데이 11/6 15:0x 확인(landingId=5508 와우할인가): 락앤락 아웃도어 보온병 1.2L 아이보리 products/6194922120, 24,820원 72%, 상품평 4,862",
+    "image_url": "https://raw.githubusercontent.com/punkfreax-crypto/ggultem-cards/main/season/20261107-K1.png",
+    "status": "queued",
+    "note": "PLAYBOOK 30 계절 와우 글(링크 1개)"
+  },
+  {
     "id": "20261107-02",
     "scheduled_at": "2026-11-07T21:13:00+09:00",
     "type": "info",
