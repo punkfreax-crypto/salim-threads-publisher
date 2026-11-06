@@ -668,8 +668,8 @@
   "video_path": "out/S20261107-01.mp4",
   "duration": 22.4,
   "url": "https://youtube.com/shorts/Tq6kXqH2e5E",
-  "scheduled_public": "2026-11-07T18:00:00+09:00",
-  "profile_link_no": 4,
-  "link": "https://link.coupang.com/a/irIHtgIAj6"
+  "scheduled_public": "2026-11-07T18:00+09:00",
+  "link": "https://link.coupang.com/a/irIHtgIAj6",
+  "profile_link": "4번 irIHtgIAj6"
  }
 ]
