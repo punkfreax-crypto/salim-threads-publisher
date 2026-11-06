@@ -902,9 +902,12 @@
     "type": "info",
     "format": "question",
     "topic_tag": "생활 정보",
-    "status": "queued",
+    "status": "posted",
     "note": "공감형",
-    "text": "퇴근하고 문 열었는데 집 안이 바깥이랑 똑같이 추운 사람\n\n신발 벗기도 전에 몸이 먼저 움츠러들어\n\n집 오자마자 제일 먼저 하는 거 뭐야?"
+    "text": "퇴근하고 문 열었는데 집 안이 바깥이랑 똑같이 추운 사람\n\n신발 벗기도 전에 몸이 먼저 움츠러들어\n\n집 오자마자 제일 먼저 하는 거 뭐야?",
+    "posted_at": "2026-11-06T21:20:17.881860+09:00",
+    "post_id": "18118474526323489",
+    "permalink": "https://www.threads.com/@season.ggultem.note/post/DfZl6EEG38J"
   },
   {
     "id": "20261106-03",
